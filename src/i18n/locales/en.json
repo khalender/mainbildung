@@ -1,0 +1,238 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "experience": "Our Experience",
+    "projects": "EU Projects",
+    "partnership": "Partnership",
+    "membership": "Membership",
+    "news": "News",
+    "contact": "Contact",
+    "legal": "Legal"
+  },
+  "home": {
+    "slogan": "Eğitimden entegrasyona, geleceği birlikte şekillendiriyoruz.",
+    "sloganTranslation": "From education to integration - together we shape the future.",
+    "intro": "Mainbildung Förderverein e.V. is a non-profit association based in Würzburg, dedicated to education, integration, and social inclusion. With years of experience in educational work and as a reliable EU project partner, we support migrants, refugees, and disadvantaged groups.",
+    "buttons": {
+      "projects": "Our Projects",
+      "partner": "Partner With Us",
+      "support": "Support Us"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "history": "Association History",
+    "mission": "Our Mission",
+    "team": "Our Team",
+    "historyText": "Mainbildung Förderverein e.V. was founded with the goal of promoting education and integration. Originally started as an educational institution, we have evolved into an important partner for EU projects.",
+    "missionText": "Our mission is to build bridges between different cultures through education, digital skills, and social inclusion, opening new perspectives for disadvantaged groups."
+  },
+  "experience": {
+    "hero": {
+      "title": "Our Experience",
+      "subtitle": "Over the years, we have successfully implemented educational programs, supported communities, and served as a reliable partner in EU projects."
+    },
+    "stats": {
+      "participants": "Participants",
+      "programs": "Programs",
+      "partners": "Partners",
+      "years": "Years of Experience"
+    },
+    "achievements": {
+      "title": "Our Achievements",
+      "subtitle": "Concrete results of our work in education, integration, and community development.",
+      "digitalSkills": {
+        "title": "Digital Skills Programs",
+        "description": "Comprehensive training in digital skills for migrants and disadvantaged groups, including computer literacy and online safety."
+      },
+      "communityIntegration": {
+        "title": "Community Integration",
+        "description": "Successful integration programs that overcome language barriers and build cultural bridges between different communities."
+      },
+      "youthPrograms": {
+        "title": "Youth Development",
+        "description": "Specialized programs for young people with migration backgrounds, opening educational opportunities and career prospects."
+      },
+      "languageSupport": {
+        "title": "Language Support",
+        "description": "Intensive German and English courses for various age groups and skill levels to improve social participation."
+      }
+    },
+    "categories": {
+      "education": "Education",
+      "integration": "Integration",
+      "youth": "Youth",
+      "language": "Language"
+    },
+    "events": {
+      "title": "Events & Activities",
+      "subtitle": "Regular events that strengthen our community and promote cultural exchange.",
+      "culturalFestival": {
+        "title": "Intercultural Festival",
+        "date": "September 2023",
+        "description": "A major celebration of cultural diversity featuring music, dance, traditional food, and workshops."
+      },
+      "educationWorkshop": {
+        "title": "Education Workshop",
+        "date": "June 2023",
+        "description": "Intensive workshops on digital skills, job application training, and career guidance."
+      },
+      "networkingEvent": {
+        "title": "Networking Event",
+        "date": "March 2023",
+        "description": "Networking event for local organizations, businesses, and community representatives."
+      }
+    },
+    "impact": {
+      "title": "Our Social Impact",
+      "description": "Through our work, we have created measurable positive changes in the community and improved the lives of many people.",
+      "communities": "12+",
+      "communitiesLabel": "Supported Communities",
+      "families": "300+",
+      "familiesLabel": "Families Reached",
+      "success": "85%",
+      "successLabel": "Success Rate"
+    },
+    "participants": "participants",
+    "attendees": "attendees"
+  },
+  "projects": {
+    "hero": {
+      "title": "EU Projects & Future Plans",
+      "subtitle": "As an experienced EU project partner, we develop innovative solutions for integration, education, and social inclusion. Discover our current projects and future plans.",
+      "partnerButton": "Become a Partner",
+      "contactButton": "Get in Touch"
+    },
+    "focusAreas": {
+      "title": "Our Focus Areas",
+      "subtitle": "Four main areas where we create sustainable change through EU projects.",
+      "integration": {
+        "title": "Integration & Inclusion",
+        "description": "Programs for social integration of migrants and refugees through language support and cultural bridges."
+      },
+      "education": {
+        "title": "Education & Training",
+        "description": "Innovative educational programs for all age groups focusing on lifelong learning and skill development."
+      },
+      "digital": {
+        "title": "Digital Skills",
+        "description": "Promoting digital competencies to improve employability and social participation."
+      },
+      "inclusion": {
+        "title": "Social Inclusion",
+        "description": "Supporting disadvantaged groups through targeted programs to promote social participation."
+      }
+    },
+    "current": {
+      "title": "Current Projects",
+      "subtitle": "Our ongoing EU projects that are already creating positive changes in the community.",
+      "digitalBridge": {
+        "title": "Digital Bridge Initiative",
+        "description": "An Erasmus+ project promoting digital skills among migrants and elderly people.",
+        "duration": "2023-2025"
+      },
+      "youthIntegration": {
+        "title": "Youth Integration Network",
+        "description": "ESF+ project for professional integration of young people with migration backgrounds.",
+        "duration": "2024-2026"
+      },
+      "communitySupport": {
+        "title": "Community Support Hub",
+        "description": "AMIF-funded project to strengthen local support networks for refugees.",
+        "duration": "2023-2024"
+      }
+    },
+    "targetGroups": {
+      "title": "Our Target Groups",
+      "subtitle": "We work with various groups to achieve maximum social impact.",
+      "migrants": {
+        "title": "Migrants & Refugees",
+        "description": "Support for integration and inclusion"
+      },
+      "youth": {
+        "title": "Young People",
+        "description": "Educational and career opportunities for youth"
+      },
+      "families": {
+        "title": "Families",
+        "description": "Comprehensive support for families"
+      },
+      "professionals": {
+        "title": "Professionals",
+        "description": "Continuing education and skill development"
+      }
+    },
+    "future": {
+      "title": "Future Plans",
+      "subtitle": "Innovative project ideas we plan to implement in the coming years.",
+      "aiEducation": {
+        "title": "AI in Education",
+        "description": "Integration of artificial intelligence in educational programs for personalized learning.",
+        "timeline": "2025-2027"
+      },
+      "greenSkills": {
+        "title": "Green Skills",
+        "description": "Training in sustainable technologies and environmentally friendly practices.",
+        "timeline": "2024-2026"
+      },
+      "crossCultural": {
+        "title": "Cross-Cultural Dialogue",
+        "description": "Promoting understanding between different cultures and religions.",
+        "timeline": "2025-2028"
+      }
+    },
+    "status": {
+      "active": "Active",
+      "planning": "Planning",
+      "concept": "Concept",
+      "proposal": "Proposal",
+      "development": "Development"
+    },
+    "cta": {
+      "title": "Become Our Project Partner",
+      "description": "Together we can achieve even greater impact. Contact us for collaboration opportunities.",
+      "partnerButton": "Request Partnership",
+      "learnMoreButton": "Learn More"
+    },
+    "partners": "partners"
+  },
+  "partnership": {
+    "title": "Partnership & Collaboration",
+    "whyUs": "Why we are a reliable EU partner",
+    "callForPartnership": "Call for Partnership"
+  },
+  "membership": {
+    "title": "Membership & Support",
+    "join": "Join as Member",
+    "volunteer": "Volunteer",
+    "donate": "Donate",
+    "sponsor": "Sponsor"
+  },
+  "news": {
+    "title": "News & Resources",
+    "updates": "Updates",
+    "articles": "Articles",
+    "projectInfo": "Project Information"
+  },
+  "contact": {
+    "title": "Contact",
+    "form": "Contact Form",
+    "address": "Address",
+    "email": "Email",
+    "phone": "Phone",
+    "socialMedia": "Social Media",
+    "euPartnership": "EU Partnership Email"
+  },
+  "legal": {
+    "impressum": "Legal Notice",
+    "datenschutz": "Privacy Policy",
+    "cookies": "Cookie Policy"
+  },
+  "footer": {
+    "description": "Mainbildung Förderverein e.V. - Education, Integration and Social Inclusion in Würzburg",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "followUs": "Follow Us"
+  }
+}

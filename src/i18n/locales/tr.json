@@ -1,0 +1,238 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "experience": "Deneyimlerimiz",
+    "projects": "AB Projeleri",
+    "partnership": "Ortaklık",
+    "membership": "Üyelik",
+    "news": "Haberler",
+    "contact": "İletişim",
+    "legal": "Yasal"
+  },
+  "home": {
+    "slogan": "Eğitimden entegrasyona, geleceği birlikte şekillendiriyoruz.",
+    "sloganTranslation": "Eğitimden entegrasyona, geleceği birlikte şekillendiriyoruz.",
+    "intro": "Mainbildung Förderverein e.V., Würzburg merkezli, eğitim, entegrasyon ve sosyal kapsayıcılığa adanmış kar amacı gütmeyen bir dernektir. Eğitim alanında yıllarca deneyim sahibi ve güvenilir bir AB proje ortağı olarak göçmenler, mülteciler ve dezavantajlı grupları destekliyoruz.",
+    "buttons": {
+      "projects": "Projelerimiz",
+      "partner": "Ortağımız Olun",
+      "support": "Bizi Destekleyin"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "history": "Dernek Tarihi",
+    "mission": "Misyonumuz",
+    "team": "Ekibimiz",
+    "historyText": "Mainbildung Förderverein e.V., eğitim ve entegrasyonu destekleme amacıyla kurulmuştur. Başlangıçta bir eğitim kurumu olarak başlayan derneğimiz, AB projeleri için önemli bir ortak haline gelmiştir.",
+    "missionText": "Misyonumuz, eğitim, dijital beceriler ve sosyal kapsayıcılık yoluyla farklı kültürler arasında köprüler kurmak ve dezavantajlı gruplara yeni perspektifler açmaktır."
+  },
+  "experience": {
+    "hero": {
+      "title": "Deneyimlerimiz",
+      "subtitle": "Yıllar boyunca başarılı eğitim programları uyguladık, toplulukları destekledik ve AB projelerinde güvenilir bir ortak olarak görev aldık."
+    },
+    "stats": {
+      "participants": "Katılımcı",
+      "programs": "Program",
+      "partners": "Ortak",
+      "years": "Yıl Deneyim"
+    },
+    "achievements": {
+      "title": "Başarılarımız",
+      "subtitle": "Eğitim, entegrasyon ve toplum geliştirme alanlarındaki çalışmalarımızın somut sonuçları.",
+      "digitalSkills": {
+        "title": "Dijital Beceri Programları",
+        "description": "Göçmenler ve dezavantajlı gruplar için bilgisayar okuryazarlığı ve çevrimiçi güvenlik dahil kapsamlı dijital beceri eğitimleri."
+      },
+      "communityIntegration": {
+        "title": "Toplum Entegrasyonu",
+        "description": "Dil engellerini aşan ve farklı topluluklar arasında kültürel köprüler kuran başarılı entegrasyon programları."
+      },
+      "youthPrograms": {
+        "title": "Gençlik Geliştirme",
+        "description": "Göçmen geçmişi olan gençler için eğitim fırsatları ve kariyer perspektifleri açan özel programlar."
+      },
+      "languageSupport": {
+        "title": "Dil Desteği",
+        "description": "Toplumsal katılımı artırmak için çeşitli yaş grupları ve yeterlilik seviyelerine yönelik yoğun Almanca ve İngilizce kursları."
+      }
+    },
+    "categories": {
+      "education": "Eğitim",
+      "integration": "Entegrasyon",
+      "youth": "Gençlik",
+      "language": "Dil"
+    },
+    "events": {
+      "title": "Etkinlikler & Faaliyetler",
+      "subtitle": "Topluluğumuzu güçlendiren ve kültürel alışverişi teşvik eden düzenli etkinlikler.",
+      "culturalFestival": {
+        "title": "Kültürlerarası Festival",
+        "date": "Eylül 2023",
+        "description": "Müzik, dans, geleneksel yemekler ve atölyeler içeren kültürel çeşitliliğin büyük bir kutlaması."
+      },
+      "educationWorkshop": {
+        "title": "Eğitim Atölyesi",
+        "date": "Haziran 2023",
+        "description": "Dijital beceriler, iş başvurusu eğitimi ve kariyer rehberliği konularında yoğun atölyeler."
+      },
+      "networkingEvent": {
+        "title": "Ağ Oluşturma Etkinliği",
+        "date": "Mart 2023",
+        "description": "Yerel kuruluşlar, işletmeler ve toplum temsilcileri için ağ oluşturma etkinliği."
+      }
+    },
+    "impact": {
+      "title": "Sosyal Etkimiz",
+      "description": "Çalışmalarımız sayesinde toplumda ölçülebilir pozitif değişiklikler yarattık ve birçok insanın hayatını iyileştirdik.",
+      "communities": "12+",
+      "communitiesLabel": "Desteklenen Topluluk",
+      "families": "300+",
+      "familiesLabel": "Ulaşılan Aile",
+      "success": "%85",
+      "successLabel": "Başarı Oranı"
+    },
+    "participants": "katılımcı",
+    "attendees": "katılımcı"
+  },
+  "projects": {
+    "hero": {
+      "title": "AB Projeleri & Gelecek Planları",
+      "subtitle": "Deneyimli bir AB proje ortağı olarak entegrasyon, eğitim ve sosyal kapsayıcılık için yenilikçi çözümler geliştiriyoruz. Mevcut projelerimizi ve geleceğe yönelik planlarımızı keşfedin.",
+      "partnerButton": "Ortak Olun",
+      "contactButton": "İletişime Geçin"
+    },
+    "focusAreas": {
+      "title": "Odak Alanlarımız",
+      "subtitle": "AB projeleriyle sürdürülebilir değişim yarattığımız dört ana alan.",
+      "integration": {
+        "title": "Entegrasyon & Dahil Etme",
+        "description": "Dil desteği ve kültürel köprüler yoluyla göçmen ve mültecilerin toplumsal entegrasyonuna yönelik programlar."
+      },
+      "education": {
+        "title": "Eğitim & Öğretim",
+        "description": "Yaşam boyu öğrenme ve beceri geliştirmeye odaklanan tüm yaş grupları için yenilikçi eğitim programları."
+      },
+      "digital": {
+        "title": "Dijital Beceriler",
+        "description": "İstihdam edilebilirliği ve toplumsal katılımı artırmak için dijital yetkinliklerin geliştirilmesi."
+      },
+      "inclusion": {
+        "title": "Sosyal Kapsayıcılık",
+        "description": "Toplumsal katılımı teşvik etmek için dezavantajlı gruplara yönelik hedefli programlar."
+      }
+    },
+    "current": {
+      "title": "Mevcut Projeler",
+      "subtitle": "Toplumda olumlu değişimler yaratan devam eden AB projelerimiz.",
+      "digitalBridge": {
+        "title": "Dijital Köprü Girişimi",
+        "description": "Göçmenler ve yaşlılar arasında dijital becerileri geliştirmeye yönelik bir Erasmus+ projesi.",
+        "duration": "2023-2025"
+      },
+      "youthIntegration": {
+        "title": "Genç Entegrasyon Ağı",
+        "description": "Göçmen geçmişine sahip gençlerin mesleki entegrasyonuna yönelik ESF+ projesi.",
+        "duration": "2024-2026"
+      },
+      "communitySupport": {
+        "title": "Toplum Destek Merkezi",
+        "description": "Mülteciler için yerel destek ağlarını güçlendirmeyi amaçlayan AMIF destekli proje.",
+        "duration": "2023-2024"
+      }
+    },
+    "targetGroups": {
+      "title": "Hedef Gruplarımız",
+      "subtitle": "Maksimum toplumsal etki için farklı gruplarla çalışıyoruz.",
+      "migrants": {
+        "title": "Göçmenler & Mülteciler",
+        "description": "Entegrasyon ve dahil olmaya destek"
+      },
+      "youth": {
+        "title": "Gençler",
+        "description": "Gençler için eğitim ve kariyer fırsatları"
+      },
+      "families": {
+        "title": "Aileler",
+        "description": "Aileler için bütüncül destek"
+      },
+      "professionals": {
+        "title": "Profesyoneller",
+        "description": "Sürekli eğitim ve beceri geliştirme"
+      }
+    },
+    "future": {
+      "title": "Gelecek Planları",
+      "subtitle": "Önümüzdeki yıllarda hayata geçirmeyi planladığımız yenilikçi proje fikirleri.",
+      "aiEducation": {
+        "title": "Eğitimde Yapay Zeka",
+        "description": "Kişiselleştirilmiş öğrenme için eğitim programlarına yapay zekanın entegrasyonu.",
+        "timeline": "2025-2027"
+      },
+      "greenSkills": {
+        "title": "Yeşil Beceriler",
+        "description": "Sürdürülebilir teknolojiler ve çevre dostu uygulamalar konusunda eğitim.",
+        "timeline": "2024-2026"
+      },
+      "crossCultural": {
+        "title": "Kültürlerarası Diyalog",
+        "description": "Farklı kültürler ve dinler arasında anlayışın geliştirilmesi.",
+        "timeline": "2025-2028"
+      }
+    },
+    "status": {
+      "active": "Aktif",
+      "planning": "Planlama",
+      "concept": "Konsept",
+      "proposal": "Teklif",
+      "development": "Geliştirme"
+    },
+    "cta": {
+      "title": "Proje Ortağımız Olun",
+      "description": "Birlikte çok daha büyük etki yaratabiliriz. İşbirliği fırsatları için bizimle iletişime geçin.",
+      "partnerButton": "Ortaklık Talep Et",
+      "learnMoreButton": "Daha Fazla Bilgi"
+    },
+    "partners": "ortak"
+  },
+  "partnership": {
+    "title": "Ortaklık & İşbirliği",
+    "whyUs": "Neden güvenilir bir AB ortağıyız",
+    "callForPartnership": "Ortaklık Çağrısı"
+  },
+  "membership": {
+    "title": "Üyelik & Destek",
+    "join": "Üye Olun",
+    "volunteer": "Gönüllü Olun",
+    "donate": "Bağış Yapın",
+    "sponsor": "Sponsor Olun"
+  },
+  "news": {
+    "title": "Haberler & Kaynaklar",
+    "updates": "Güncellemeler",
+    "articles": "Makaleler",
+    "projectInfo": "Proje Bilgileri"
+  },
+  "contact": {
+    "title": "İletişim",
+    "form": "İletişim Formu",
+    "address": "Adres",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "socialMedia": "Sosyal Medya",
+    "euPartnership": "AB Ortaklığı E-postası"
+  },
+  "legal": {
+    "impressum": "Yasal Bildirim",
+    "datenschutz": "Gizlilik Politikası",
+    "cookies": "Çerez Politikası"
+  },
+  "footer": {
+    "description": "Mainbildung Förderverein e.V. - Würzburg'da Eğitim, Entegrasyon ve Sosyal Kapsayıcılık",
+    "quickLinks": "Hızlı Bağlantılar",
+    "contactInfo": "İletişim Bilgileri",
+    "followUs": "Bizi Takip Edin"
+  }
+}
