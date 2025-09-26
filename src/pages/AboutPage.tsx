@@ -12,27 +12,23 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
   const { t } = useTranslation();
   const teamMembers = [
     {
+      key: 'mehmet',
       name: "Dr. Mehmet Özkan",
-      role: "Executive Director",
-      bio: "Educational leader with 15+ years experience in integration programs and EU project management.",
       email: "m.oezkan@mainbildung.de",
     },
     {
+      key: 'sarah',
       name: "Sarah Weber",
-      role: "Project Coordinator",
-      bio: "Specialist in community outreach and multicultural program development with focus on refugee integration.",
       email: "s.weber@mainbildung.de",
     },
     {
+      key: 'ahmet',
       name: "Ahmet Yılmaz",
-      role: "Community Liaison",
-      bio: "Bridge-builder between Turkish and German communities, expert in cultural mediation and language support.",
       email: "a.yilmaz@mainbildung.de",
     },
     {
+      key: 'anna',
       name: "Dr. Anna Schmidt",
-      role: "Research & Development",
-      bio: "Academic researcher specializing in integration studies and EU policy development for social inclusion.",
       email: "a.schmidt@mainbildung.de",
     },
   ];
@@ -46,7 +42,7 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
             {t('about.title')}
           </h1>
           <p className="text-xl text-neutral-600 leading-relaxed">
-            Building bridges through education, fostering integration, and creating opportunities for all.
+            {t('about.subtitle')}
           </p>
         </div>
       </section>
@@ -69,10 +65,10 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
                   {t('about.historyText')}
                 </p>
                 <p>
-                  Founded in Würzburg, our organization began as a local educational initiative serving the Turkish-German community. Over the years, we have expanded our reach and expertise, becoming a trusted partner for European Union projects focused on integration, digital literacy, and social inclusion.
+                  {t('about.historyText2')}
                 </p>
                 <p>
-                  Our journey from a community-based educational institution to an internationally recognized EU project partner reflects our commitment to growth, learning, and adaptation to serve our communities better.
+                  {t('about.historyText3')}
                 </p>
               </div>
             </div>
@@ -80,23 +76,23 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
               <div className="space-y-6">
                 <div className="flex items-center">
                   <div className="w-4 h-4 bg-primary-600 rounded-full mr-4"></div>
-                  <span className="font-semibold">2010 - Founded as educational institution</span>
+                  <span className="font-semibold">2010 - {t('about.timeline.founded')}</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-4 h-4 bg-primary-600 rounded-full mr-4"></div>
-                  <span className="font-semibold">2015 - First EU project partnership</span>
+                  <span className="font-semibold">2015 - {t('about.timeline.firstEU')}</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-4 h-4 bg-primary-600 rounded-full mr-4"></div>
-                  <span className="font-semibold">2018 - Expanded to integration programs</span>
+                  <span className="font-semibold">2018 - {t('about.timeline.expanded')}</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-4 h-4 bg-primary-600 rounded-full mr-4"></div>
-                  <span className="font-semibold">2020 - Digital skills focus</span>
+                  <span className="font-semibold">2020 - {t('about.timeline.digital')}</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-4 h-4 bg-secondary-400 rounded-full mr-4"></div>
-                  <span className="font-semibold">2024 - Renewed mission & vision</span>
+                  <span className="font-semibold">2024 - {t('about.timeline.renewed')}</span>
                 </div>
               </div>
             </div>
@@ -114,21 +110,19 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
                   <div className="space-y-6">
                     <div className="flex items-center">
                       <Target className="h-8 w-8 text-primary-600 mr-3" />
-                      <h3 className="text-xl font-heading font-semibold">Our Vision</h3>
+                      <h3 className="text-xl font-heading font-semibold">{t('about.visionTitle')}</h3>
                     </div>
-                    <p className="text-neutral-700">
-                      A society where every individual, regardless of their background, has equal access to education, opportunities, and the tools needed to thrive in an interconnected world.
-                    </p>
+                    <p className="text-neutral-700">{t('about.visionText')}</p>
                     <div className="flex items-center">
                       <Users className="h-8 w-8 text-secondary-500 mr-3" />
-                      <h3 className="text-xl font-heading font-semibold">Our Values</h3>
+                      <h3 className="text-xl font-heading font-semibold">{t('about.valuesTitle')}</h3>
                     </div>
                     <ul className="space-y-2 text-neutral-700">
-                      <li>• Inclusivity and cultural diversity</li>
-                      <li>• Educational excellence and innovation</li>
-                      <li>• Community empowerment and participation</li>
-                      <li>• Sustainable social impact</li>
-                      <li>• Transparency and accountability</li>
+                      <li>• {t('about.values.inclusivity')}</li>
+                      <li>• {t('about.values.excellence')}</li>
+                      <li>• {t('about.values.empowerment')}</li>
+                      <li>• {t('about.values.sustainability')}</li>
+                      <li>• {t('about.values.transparency')}</li>
                     </ul>
                   </div>
                 </CardContent>
@@ -148,10 +142,10 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
                   {t('about.missionText')}
                 </p>
                 <p>
-                  We are committed to creating sustainable programs that address the real needs of our communities while fostering cross-cultural understanding and cooperation. Through our EU partnerships, we leverage international expertise and resources to maximize our impact.
+                  {t('about.missionExtra1')}
                 </p>
                 <p>
-                  Our approach combines traditional educational methods with innovative digital solutions, ensuring that our programs are both accessible and effective for diverse learning styles and backgrounds.
+                  {t('about.missionExtra2')}
                 </p>
               </div>
             </div>
@@ -165,9 +159,10 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-neutral-900 mb-4">
               {t('about.team')}
+            {t('about.teamTitle')}
             </h2>
             <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-              Meet the dedicated professionals who drive our mission forward with passion, expertise, and commitment to social change.
+              {t('about.teamSubtitle')}
             </p>
           </div>
 
@@ -176,8 +171,8 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
               <TeamMember
                 key={index}
                 name={member.name}
-                role={member.role}
-                bio={member.bio}
+                role={t(`about.team.members.${member.key}.role`)}
+                bio={t(`about.team.members.${member.key}.bio`)}
                 email={member.email}
               />
             ))}
@@ -191,19 +186,19 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">500+</div>
-              <div className="text-primary-100">People Supported</div>
+              <div className="text-primary-100">{t('about.stats.peopleSupported')}</div>
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">15+</div>
-              <div className="text-primary-100">EU Projects</div>
+              <div className="text-primary-100">{t('about.stats.euProjects')}</div>
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">8</div>
-              <div className="text-primary-100">Partner Countries</div>
+              <div className="text-primary-100">{t('about.stats.partnerCountries')}</div>
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">14</div>
-              <div className="text-primary-100">Years Experience</div>
+              <div className="text-primary-100">{t('about.stats.yearsExperience')}</div>
             </div>
           </div>
         </div>

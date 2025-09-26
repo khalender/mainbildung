@@ -70,9 +70,57 @@
     "title": "Hakkımızda",
     "history": "Dernek Tarihi",
     "mission": "Misyonumuz",
-    "team": "Ekibimiz",
+    "teamTitle": "Ekibimiz",
+    "subtitle": "Eğitim yoluyla köprüler kuruyor, entegrasyonu güçlendiriyor ve herkes için fırsatlar yaratıyoruz.",
     "historyText": "Mainbildung Förderverein e.V., eğitim ve entegrasyonu destekleme amacıyla kurulmuştur. Başlangıçta bir eğitim kurumu olarak başlayan derneğimiz, AB projeleri için önemli bir ortak haline gelmiştir.",
-    "missionText": "Misyonumuz, eğitim, dijital beceriler ve sosyal kapsayıcılık yoluyla farklı kültürler arasında köprüler kurmak ve dezavantajlı gruplara yeni perspektifler açmaktır."
+    "historyText2": "Würzburg'da kurulan kuruluşumuz, Türk-Alman toplumuna hizmet eden yerel bir eğitim girişimi olarak başladı. Yıllar içinde etki alanımızı ve uzmanlığımızı genişleterek entegrasyon, dijital okuryazarlık ve sosyal kapsayıcılık odaklı Avrupa Birliği projelerinde güvenilir bir ortak haline geldik.",
+    "historyText3": "Topluma dayalı bir eğitim kurumundan uluslararası düzeyde tanınan bir AB proje ortağına dönüşen yolculuğumuz, topluluklarımıza daha iyi hizmet etmek için büyüme, öğrenme ve uyum sağlama konusundaki kararlılığımızı yansıtmaktadır.",
+    "timeline": {
+      "founded": "Eğitim kurumu olarak kuruldu",
+      "firstEU": "İlk AB proje ortaklığı",
+      "expanded": "Entegrasyon programlarına genişleme",
+      "digital": "Dijital becerilere odaklanma",
+      "renewed": "Yenilenen misyon ve vizyon"
+    },
+    "visionTitle": "Vizyonumuz",
+    "visionText": "Her bireyin geçmişi ne olursa olsun eğitime, fırsatlara ve bağlantılı bir dünyada başarılı olmak için gereken araçlara eşit erişime sahip olduğu bir toplum.",
+    "valuesTitle": "Değerlerimiz",
+    "values": {
+      "inclusivity": "Kapsayıcılık ve kültürel çeşitlilik",
+      "excellence": "Eğitimde mükemmellik ve inovasyon",
+      "empowerment": "Toplumu güçlendirme ve katılım",
+      "sustainability": "Sürdürülebilir sosyal etki",
+      "transparency": "Şeffaflık ve hesap verebilirlik"
+    },
+    "missionText": "Misyonumuz, eğitim, dijital beceriler ve sosyal kapsayıcılık yoluyla farklı kültürler arasında köprüler kurmak ve dezavantajlı gruplara yeni perspektifler açmaktır.",
+    "missionExtra1": "Topluluklarımızın gerçek ihtiyaçlarını karşılayan ve kültürlerarası anlayış ile iş birliğini güçlendiren sürdürülebilir programlar oluşturmaya kararlıyız. AB ortaklıklarımız sayesinde uluslararası uzmanlık ve kaynaklardan yararlanarak etkimizi en üst düzeye çıkarıyoruz.",
+    "missionExtra2": "Yaklaşımımız, geleneksel eğitim yöntemlerini yenilikçi dijital çözümlerle birleştirir ve programlarımızın farklı öğrenme stilleri ve geçmişlere sahip insanlar için erişilebilir ve etkili olmasını sağlar.",
+    "team": {
+      "members": {
+        "mehmet": {
+          "role": "Genel Direktör",
+          "bio": "Entegrasyon programları ve AB proje yönetiminde 15+ yıllık deneyime sahip eğitim lideri."
+        },
+        "sarah": {
+          "role": "Proje Koordinatörü",
+          "bio": "Toplumla etkileşim ve çok kültürlü program geliştirme konusunda uzman; mülteci entegrasyonuna odaklanır."
+        },
+        "ahmet": {
+          "role": "Toplum İlişkileri Sorumlusu",
+          "bio": "Türk ve Alman toplulukları arasında köprü kuran; kültürel arabuluculuk ve dil desteği konusunda uzman."
+        },
+        "anna": {
+          "role": "Araştırma & Geliştirme",
+          "bio": "Entegrasyon çalışmaları ve sosyal kapsayıcılık için AB politikaları alanında uzman akademik araştırmacı."
+        }
+      }
+    },
+    "stats": {
+      "peopleSupported": "Desteklenen Kişi",
+      "euProjects": "AB Projeleri",
+      "partnerCountries": "Partner Ülke",
+      "yearsExperience": "Yıl Deneyim"
+    }
   },
   "experience": {
     "hero": {

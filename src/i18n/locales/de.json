@@ -82,9 +82,58 @@
     "title": "Über uns",
     "history": "Geschichte des Vereins",
     "mission": "Unsere Mission",
-    "team": "Unser Team",
+    "teamTitle": "Unser Team",
+    "subtitle": "Brücken bauen durch Bildung, Integration fördern und Chancen für alle schaffen.",
     "historyText": "Mainbildung Förderverein e.V. wurde mit dem Ziel gegründet, Bildung und Integration zu fördern. Ursprünglich als Bildungseinrichtung gestartet, haben wir uns zu einem wichtigen Partner für EU-Projekte entwickelt.",
-    "missionText": "Unsere Mission ist es, durch Bildung, digitale Kompetenzen und soziale Inklusion eine Brücke zwischen verschiedenen Kulturen zu bauen und benachteiligten Gruppen neue Perspektiven zu eröffnen."
+    "historyText2": "In Würzburg gegründet, begann unsere Organisation als lokale Bildungsinitiative für die türkisch-deutsche Gemeinschaft. Im Laufe der Jahre haben wir unseren Wirkungskreis und unsere Expertise erweitert und sind zu einem vertrauenswürdigen Partner für EU-Projekte in den Bereichen Integration, digitale Kompetenzen und soziale Inklusion geworden.",
+    "historyText3": "Unser Weg von einer gemeinwesenorientierten Bildungseinrichtung zu einem international anerkannten EU-Projektpartner spiegelt unser Engagement für Wachstum, Lernen und Anpassung wider, um unsere Gemeinschaften noch besser zu unterstützen.",
+    "timeline": {
+      "founded": "Gründung als Bildungseinrichtung",
+      "firstEU": "Erste EU-Projektpartnerschaft",
+      "expanded": "Ausbau zu Integrationsprogrammen",
+      "digital": "Fokus auf digitale Kompetenzen",
+      "renewed": "Erneuerte Mission & Vision"
+    },
+    "visionTitle": "Unsere Vision",
+    "visionText": "Eine Gesellschaft, in der jeder Mensch – unabhängig von seiner Herkunft – gleichen Zugang zu Bildung, Chancen und den nötigen Werkzeugen hat, um in einer vernetzten Welt zu gedeihen.",
+    "valuesTitle": "Unsere Werte",
+    "values": {
+      "inclusivity": "Inklusivität und kulturelle Vielfalt",
+      "excellence": "Bildungsexzellenz und Innovation",
+      "empowerment": "Stärkung und Teilhabe der Gemeinschaft",
+      "sustainability": "Nachhaltige soziale Wirkung",
+      "transparency": "Transparenz und Rechenschaft"
+    },
+    "missionText": "Unsere Mission ist es, durch Bildung, digitale Kompetenzen und soziale Inklusion eine Brücke zwischen verschiedenen Kulturen zu bauen und benachteiligten Gruppen neue Perspektiven zu eröffnen.",
+    "missionExtra1": "Wir setzen auf nachhaltige Programme, die reale Bedürfnisse unserer Gemeinschaften adressieren und interkulturelles Verständnis sowie Zusammenarbeit fördern. Durch unsere EU-Partnerschaften nutzen wir internationale Expertise und Ressourcen, um unsere Wirkung zu maximieren.",
+    "missionExtra2": "Unser Ansatz verbindet traditionelle Bildungswege mit innovativen digitalen Lösungen und stellt sicher, dass unsere Programme für unterschiedliche Lernstile und Hintergründe zugänglich und wirksam sind.",
+    "teamSubtitle": "Lernen Sie die engagierten Fachleute kennen, die unsere Mission mit Leidenschaft, Expertise und Einsatz für sozialen Wandel vorantreiben.",
+    "team": {
+      "members": {
+        "mehmet": {
+          "role": "Geschäftsführer",
+          "bio": "Bildungsexperte mit über 15 Jahren Erfahrung in Integrationsprogrammen und EU-Projektmanagement."
+        },
+        "sarah": {
+          "role": "Projektkoordinatorin",
+          "bio": "Spezialistin für Community Outreach und multikulturelle Programmentwicklung mit Fokus auf Flüchtlingsintegration."
+        },
+        "ahmet": {
+          "role": "Community-Lotse",
+          "bio": "Brückenbauer zwischen türkischer und deutscher Community, Experte für kulturelle Mediation und Sprachunterstützung."
+        },
+        "anna": {
+          "role": "Forschung & Entwicklung",
+          "bio": "Wissenschaftliche Mitarbeiterin mit Schwerpunkt Integrationsforschung und EU-Politik für soziale Inklusion."
+        }
+      }
+    },
+    "stats": {
+      "peopleSupported": "Unterstützte Personen",
+      "euProjects": "EU-Projekte",
+      "partnerCountries": "Partnerländer",
+      "yearsExperience": "Jahre Erfahrung"
+    }
   },
   "experience": {
     "hero": {
