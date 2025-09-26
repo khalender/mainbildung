@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-import heroImage from '@/assets/picures/509303354_24168903416050679_2714965253572902863_n.jpg';
+import heroImage from '@/assets/pictures/509303354_24168903416050679_2714965253572902863_n.jpg';
 
 interface HeroProps {
   onProjectsClick?: () => void;

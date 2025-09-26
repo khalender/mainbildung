@@ -3,12 +3,12 @@ import { useTranslation } from 'react-i18next';
 import { TeamMember } from '@/components/TeamMember';
 import { Card, CardContent } from '@/components/ui/card';
 import { History, Target, Users } from 'lucide-react';
-import headerImage from '@/assets/picures/504086470_24052933317647690_7044428351615090411_n.jpg';
-import missionImage from '@/assets/picures/505368845_24070297402577948_841066946591203818_n.jpg';
-import memberMehmet from '@/assets/picures/505279492_24070297559244599_8124513859225503294_n.jpg';
-import memberSarah from '@/assets/picures/508693556_24142174295390258_8252334276413819860_n.jpg';
-import memberAhmet from '@/assets/picures/508763183_24144110428529978_4734436101554217121_n.jpg';
-import memberAnna from '@/assets/picures/505197950_24063172533290435_2186439613263688435_n.jpg';
+import headerImage from '@/assets/pictures/504086470_24052933317647690_7044428351615090411_n.jpg';
+import missionImage from '@/assets/pictures/505368845_24070297402577948_841066946591203818_n.jpg';
+import memberMehmet from '@/assets/pictures/505279492_24070297559244599_8124513859225503294_n.jpg';
+import memberSarah from '@/assets/pictures/508693556_24142174295390258_8252334276413819860_n.jpg';
+import memberAhmet from '@/assets/pictures/508763183_24144110428529978_4734436101554217121_n.jpg';
+import memberAnna from '@/assets/pictures/505197950_24063172533290435_2186439613263688435_n.jpg';
 
 interface AboutPageProps {
   onNavigate?: (path: string) => void;
