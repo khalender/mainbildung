@@ -41,7 +41,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <p className="text-neutral-300 mb-6 leading-relaxed">
               {t('footer.description')}
             </p>
-            
+
             {/* Contact Information */}
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
@@ -163,7 +163,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   ))}
                 </div>
               </div>
-              <span className="text-neutral-400 text-xs">EU Partner</span>
+              <span className="text-neutral-400 text-xs">{t('footer.euPartner')}</span>
             </div>
           </div>
         </div>

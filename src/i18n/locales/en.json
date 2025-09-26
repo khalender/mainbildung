@@ -11,13 +11,59 @@
     "legal": "Legal"
   },
   "home": {
-    "slogan": "Eğitimden entegrasyona, geleceği birlikte şekillendiriyoruz.",
+    "slogan": "From education to integration - together we shape the future.",
     "sloganTranslation": "From education to integration - together we shape the future.",
     "intro": "Mainbildung Förderverein e.V. is a non-profit association based in Würzburg, dedicated to education, integration, and social inclusion. With years of experience in educational work and as a reliable EU project partner, we support migrants, refugees, and disadvantaged groups.",
     "buttons": {
       "projects": "Our Projects",
       "partner": "Partner With Us",
       "support": "Support Us"
+    },
+    "features": {
+      "title": "Why Choose Mainbildung?",
+      "subtitle": "We bring years of experience, EU partnership expertise, and a deep commitment to social inclusion.",
+      "items": {
+        "community": {
+          "title": "Community Focus",
+          "description": "Deep understanding of migrant and refugee communities, with culturally sensitive approaches to integration."
+        },
+        "eu": {
+          "title": "EU Partnership",
+          "description": "Proven track record as a reliable EU project partner with extensive experience in international collaboration."
+        },
+        "impact": {
+          "title": "Social Impact",
+          "description": "Committed to creating lasting positive change through education, integration, and social inclusion initiatives."
+        }
+      }
+    },
+    "featured": {
+      "title": "Featured Projects",
+      "subtitle": "Discover our current and upcoming initiatives that are making a difference in our community.",
+      "viewAll": "View All Projects",
+      "projects": [
+        {
+          "title": "Digital Integration Program",
+          "description": "Supporting migrants and refugees with digital skills training and integration support.",
+          "tags": ["Integration", "Digital Skills", "EU Funded"]
+        },
+        {
+          "title": "Community Bridge Initiative",
+          "description": "Building bridges between different communities through education and cultural exchange.",
+          "tags": ["Community", "Education", "Cultural Exchange"]
+        },
+        {
+          "title": "Youth Empowerment Project",
+          "description": "Empowering disadvantaged youth through mentorship and skill development programs.",
+          "tags": ["Youth", "Mentorship", "Skills"]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Make a Difference?",
+      "subtitle": "Join us in building bridges, creating opportunities, and shaping a more inclusive future for everyone.",
+      "partner": "Become a Partner",
+      "support": "Support Our Mission"
     }
   },
   "about": {
@@ -184,10 +230,35 @@
     },
     "status": {
       "active": "Active",
-      "planning": "Planning",
-      "concept": "Concept",
-      "proposal": "Proposal",
-      "development": "Development"
+      "completed": "Completed",
+      "planned": "Planned"
+    },
+    "cta": {
+      "title": "Become Our Project Partner",
+      "description": "Together we can achieve even greater impact. Contact us for collaboration opportunities.",
+      "partnerButton": "Request Partnership",
+      "learnMoreButton": "Learn More"
+    },
+    "contact": {
+      "title": "Contact",
+      "form": "Contact Form",
+      "address": "Address",
+      "email": "Email",
+      "phone": "Phone",
+      "socialMedia": "Social Media",
+      "euPartnership": "EU Partnership Email",
+      "name": "Name",
+      "subject": "Subject",
+      "message": "Message",
+      "euCheckbox": "This is regarding EU partnership opportunities",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "placeholders": {
+        "name": "Your full name",
+        "email": "your.email@example.com",
+        "subject": "Brief subject of your message",
+        "message": "Please describe your inquiry in detail..."
+      }
     },
     "cta": {
       "title": "Become Our Project Partner",

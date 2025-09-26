@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -20,14 +20,14 @@ interface ContactFormProps {
 
 export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
   const { t } = useTranslation();
-  const [formData, setFormData] = useState<ContactFormData>({
+  const [formData, setFormData] = React.useState<ContactFormData>({
     name: '',
     email: '',
     subject: '',
     message: '',
     isEuPartnership: false,
   });
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -42,7 +42,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     try {
       if (onSubmit) {
         await onSubmit(formData);
@@ -74,7 +74,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
           {/* Name Field */}
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-neutral-700 mb-2">
-              Name *
+              {t('contact.name')} *
             </label>
             <Input
               id="name"
@@ -83,7 +83,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
               required
               value={formData.name}
               onChange={handleInputChange}
-              placeholder="Your full name"
+              placeholder={t('contact.placeholders.name')}
             />
           </div>
 
@@ -99,14 +99,14 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
               required
               value={formData.email}
               onChange={handleInputChange}
-              placeholder="your.email@example.com"
+              placeholder={t('contact.placeholders.email')}
             />
           </div>
 
           {/* Subject Field */}
           <div>
             <label htmlFor="subject" className="block text-sm font-medium text-neutral-700 mb-2">
-              Subject *
+              {t('contact.subject')} *
             </label>
             <Input
               id="subject"
@@ -115,7 +115,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
               required
               value={formData.subject}
               onChange={handleInputChange}
-              placeholder="Brief subject of your message"
+              placeholder={t('contact.placeholders.subject')}
             />
           </div>
 
@@ -130,14 +130,14 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
               className="rounded border-neutral-300 text-primary-600 focus:ring-primary-500"
             />
             <label htmlFor="isEuPartnership" className="text-sm text-neutral-700">
-              This is regarding EU partnership opportunities
+              {t('contact.euCheckbox')}
             </label>
           </div>
 
           {/* Message Field */}
           <div>
             <label htmlFor="message" className="block text-sm font-medium text-neutral-700 mb-2">
-              Message *
+              {t('contact.message')} *
             </label>
             <Textarea
               id="message"
@@ -146,7 +146,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
               rows={6}
               value={formData.message}
               onChange={handleInputChange}
-              placeholder="Please describe your inquiry in detail..."
+              placeholder={t('contact.placeholders.message')}
             />
           </div>
 
@@ -158,10 +158,10 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
             className="w-full group"
           >
             {isSubmitting ? (
-              'Sending...'
+              t('contact.sending')
             ) : (
               <>
-                Send Message
+                {t('contact.send')}
                 <Send className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </>
             )}

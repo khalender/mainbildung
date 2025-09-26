@@ -15,6 +15,9 @@ export const Hero: React.FC<HeroProps> = ({
   onSupportClick,
 }) => {
   const { t } = useTranslation();
+  const slogan = t('home.slogan');
+  const sloganTranslation = t('home.sloganTranslation');
+  const showTranslation = sloganTranslation && sloganTranslation !== slogan;
 
   return (
     <section className="relative bg-gradient-to-br from-primary-50 to-white py-20 px-4">
@@ -22,11 +25,13 @@ export const Hero: React.FC<HeroProps> = ({
         {/* Main Slogan */}
         <div className="mb-8">
           <h1 className="text-4xl md:text-6xl font-heading font-bold text-primary-800 mb-4 leading-tight">
-            {t('home.slogan')}
+            {slogan}
           </h1>
-          <p className="text-xl md:text-2xl text-neutral-600 font-medium">
-            {t('home.sloganTranslation')}
-          </p>
+          {showTranslation && (
+            <p className="text-xl md:text-2xl text-neutral-600 font-medium">
+              {sloganTranslation}
+            </p>
+          )}
         </div>
 
         {/* Introduction */}

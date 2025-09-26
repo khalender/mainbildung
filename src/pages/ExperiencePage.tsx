@@ -8,7 +8,7 @@ interface ExperiencePageProps {
   onNavigate?: (path: string) => void;
 }
 
-export const ExperiencePage: React.FC<ExperiencePageProps> = ({ onNavigate }) => {
+export const ExperiencePage: React.FC<ExperiencePageProps> = () => {
   const { t } = useTranslation();
 
   const achievements = [

@@ -18,6 +18,52 @@
       "projects": "Projelerimiz",
       "partner": "Ortağımız Olun",
       "support": "Bizi Destekleyin"
+    },
+    "features": {
+      "title": "Neden Mainbildung?",
+      "subtitle": "Yılların deneyimini, AB ortaklığı uzmanlığını ve sosyal kapsayıcılığa güçlü bir bağlılığı bir araya getiriyoruz.",
+      "items": {
+        "community": {
+          "title": "Toplum Odaklı",
+          "description": "Göçmen ve mülteci topluluklarını derinlemesine anlıyor, entegrasyonda kültüre duyarlı yaklaşımlar benimsiyoruz."
+        },
+        "eu": {
+          "title": "AB Ortaklığı",
+          "description": "Uluslararası işbirliğinde deneyimli, güvenilir bir AB proje ortağı olarak kanıtlanmış bir geçmiş."
+        },
+        "impact": {
+          "title": "Sosyal Etki",
+          "description": "Eğitim, entegrasyon ve sosyal kapsayıcılık girişimleriyle kalıcı olumlu değişimler yaratmaya kararlıyız."
+        }
+      }
+    },
+    "featured": {
+      "title": "Öne Çıkan Projeler",
+      "subtitle": "Toplumumuzda fark yaratan mevcut ve planlanan girişimlerimizi keşfedin.",
+      "viewAll": "Tüm Projeleri Görüntüle",
+      "projects": [
+        {
+          "title": "Dijital Entegrasyon Programı",
+          "description": "Göçmen ve mültecileri dijital beceri eğitimleri ve entegrasyon desteği ile güçlendirme.",
+          "tags": ["Entegrasyon", "Dijital Beceriler", "AB Destekli"]
+        },
+        {
+          "title": "Toplum Köprüsü Girişimi",
+          "description": "Eğitim ve kültürel alışveriş yoluyla farklı topluluklar arasında köprüler kurma.",
+          "tags": ["Toplum", "Eğitim", "Kültürel Değişim"]
+        },
+        {
+          "title": "Gençleri Güçlendirme Projesi",
+          "description": "Dezavantajlı gençleri mentorluk ve beceri geliştirme programlarıyla güçlendirme.",
+          "tags": ["Gençlik", "Mentorluk", "Beceriler"]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Fark yaratmaya hazır mısınız?",
+      "subtitle": "Herkes için daha kapsayıcı bir gelecek şekillendirmek, köprüler kurmak ve fırsatlar oluşturmak için bize katılın.",
+      "partner": "Ortak Olun",
+      "support": "Misyonumuzu Destekleyin"
     }
   },
   "about": {
@@ -184,10 +230,29 @@
     },
     "status": {
       "active": "Aktif",
-      "planning": "Planlama",
-      "concept": "Konsept",
-      "proposal": "Teklif",
-      "development": "Geliştirme"
+      "completed": "Tamamlandı",
+      "planned": "Planlandı"
+    },
+    "contact": {
+      "title": "İletişim",
+      "form": "İletişim Formu",
+      "address": "Adres",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "socialMedia": "Sosyal Medya",
+      "euPartnership": "AB Ortaklığı E-postası",
+      "name": "İsim",
+      "subject": "Konu",
+      "message": "Mesaj",
+      "euCheckbox": "Bu mesaj AB ortaklığı fırsatları ile ilgili",
+      "send": "Mesajı Gönder",
+      "sending": "Gönderiliyor...",
+      "placeholders": {
+        "name": "Adınız ve soyadınız",
+        "email": "eposta@ornek.com",
+        "subject": "Mesajınızın kısa konusu",
+        "message": "Lütfen talebinizi ayrıntılı olarak açıklayın..."
+      }
     },
     "cta": {
       "title": "Proje Ortağımız Olun",

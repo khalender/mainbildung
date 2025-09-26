@@ -14,22 +14,22 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
 
   const featuredProjects = [
     {
-      title: "Digital Integration Program",
-      description: "Supporting migrants and refugees with digital skills training and integration support.",
-      tags: ["Integration", "Digital Skills", "EU Funded"],
-      status: "active" as const,
+      title: t('home.featured.projects.0.title'),
+      description: t('home.featured.projects.0.description'),
+      tags: [t('home.featured.projects.0.tags.0'), t('home.featured.projects.0.tags.1'), t('home.featured.projects.0.tags.2')],
+      status: 'active' as const,
     },
     {
-      title: "Community Bridge Initiative",
-      description: "Building bridges between different communities through education and cultural exchange.",
-      tags: ["Community", "Education", "Cultural Exchange"],
-      status: "active" as const,
+      title: t('home.featured.projects.1.title'),
+      description: t('home.featured.projects.1.description'),
+      tags: [t('home.featured.projects.1.tags.0'), t('home.featured.projects.1.tags.1'), t('home.featured.projects.1.tags.2')],
+      status: 'active' as const,
     },
     {
-      title: "Youth Empowerment Project",
-      description: "Empowering disadvantaged youth through mentorship and skill development programs.",
-      tags: ["Youth", "Mentorship", "Skills"],
-      status: "planned" as const,
+      title: t('home.featured.projects.2.title'),
+      description: t('home.featured.projects.2.description'),
+      tags: [t('home.featured.projects.2.tags.0'), t('home.featured.projects.2.tags.1'), t('home.featured.projects.2.tags.2')],
+      status: 'planned' as const,
     },
   ];
 
@@ -61,10 +61,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-neutral-900 mb-4">
-              Why Choose Mainbildung?
+              {t('home.features.title')}
             </h2>
             <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-              We bring years of experience, EU partnership expertise, and a deep commitment to social inclusion.
+              {t('home.features.subtitle')}
             </p>
           </div>
 
@@ -74,10 +74,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                 <Users className="h-8 w-8 text-primary-600" />
               </div>
               <h3 className="text-xl font-heading font-semibold text-neutral-900 mb-3">
-                Community Focus
+                {t('home.features.items.community.title')}
               </h3>
               <p className="text-neutral-600">
-                Deep understanding of migrant and refugee communities, with culturally sensitive approaches to integration.
+                {t('home.features.items.community.description')}
               </p>
             </div>
 
@@ -86,10 +86,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                 <Globe className="h-8 w-8 text-primary-600" />
               </div>
               <h3 className="text-xl font-heading font-semibold text-neutral-900 mb-3">
-                EU Partnership
+                {t('home.features.items.eu.title')}
               </h3>
               <p className="text-neutral-600">
-                Proven track record as a reliable EU project partner with extensive experience in international collaboration.
+                {t('home.features.items.eu.description')}
               </p>
             </div>
 
@@ -98,10 +98,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                 <Heart className="h-8 w-8 text-primary-600" />
               </div>
               <h3 className="text-xl font-heading font-semibold text-neutral-900 mb-3">
-                Social Impact
+                {t('home.features.items.impact.title')}
               </h3>
               <p className="text-neutral-600">
-                Committed to creating lasting positive change through education, integration, and social inclusion initiatives.
+                {t('home.features.items.impact.description')}
               </p>
             </div>
           </div>
@@ -113,10 +113,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-neutral-900 mb-4">
-              Featured Projects
+              {t('home.featured.title')}
             </h2>
             <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-              Discover our current and upcoming initiatives that are making a difference in our community.
+              {t('home.featured.subtitle')}
             </p>
           </div>
 
@@ -138,7 +138,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
               onClick={() => onNavigate?.('/projects')}
               className="group"
             >
-              View All Projects
+              {t('home.featured.viewAll')}
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
@@ -149,10 +149,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
       <section className="py-20 bg-primary-600">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-6">
-            Ready to Make a Difference?
+            {t('home.cta.title')}
           </h2>
           <p className="text-xl text-primary-100 mb-8 leading-relaxed">
-            Join us in building bridges, creating opportunities, and shaping a more inclusive future for everyone.
+            {t('home.cta.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
@@ -161,7 +161,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
               onClick={() => onNavigate?.('/partnership')}
               className="min-w-[200px]"
             >
-              Become a Partner
+              {t('home.cta.partner')}
             </Button>
             <Button
               variant="outline"
@@ -169,7 +169,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
               onClick={() => onNavigate?.('/membership')}
               className="min-w-[200px] border-white text-white hover:bg-white hover:text-primary-600"
             >
-              Support Our Mission
+              {t('home.cta.support')}
             </Button>
           </div>
         </div>

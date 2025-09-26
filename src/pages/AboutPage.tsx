@@ -8,9 +8,8 @@ interface AboutPageProps {
   onNavigate?: (path: string) => void;
 }
 
-export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
+export const AboutPage: React.FC<AboutPageProps> = () => {
   const { t } = useTranslation();
-
   const teamMembers = [
     {
       name: "Dr. Mehmet Özkan",

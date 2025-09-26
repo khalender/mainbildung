@@ -40,7 +40,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
     setIsMenuOpen(false);
   };
 
-  const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
+  // Use the base language (e.g., "en" from "en-US") so selection highlights correctly
+  const baseLang = (i18n.language || '').split('-')[0];
+  const currentLanguage = languages.find(lang => lang.code === baseLang) || languages[0];
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
@@ -50,9 +52,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
           <div className="flex-shrink-0">
             <button
               onClick={() => handleNavigation('/')}
-              className="text-2xl font-heading font-bold text-primary-600 hover:text-primary-700 transition-colors"
+              className="text-xl text-left font-heading font-bold text-primary-600 hover:text-primary-700 transition-colors"
             >
-              Mainbildung
+              Mainbildung<br/>
+              Förderverein e.V.
             </button>
           </div>
 
@@ -92,7 +95,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
                       key={language.code}
                       onClick={() => handleLanguageChange(language.code)}
                       className={`flex items-center space-x-3 w-full px-4 py-2 text-sm hover:bg-neutral-100 transition-colors ${
-                        i18n.language === language.code ? 'bg-primary-50 text-primary-600' : 'text-neutral-700'
+                        baseLang === language.code ? 'bg-primary-50 text-primary-600' : 'text-neutral-700'
                       }`}
                     >
                       <span>{language.flag}</span>

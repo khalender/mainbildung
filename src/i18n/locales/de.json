@@ -11,13 +11,71 @@
     "legal": "Rechtliches"
   },
   "home": {
-    "slogan": "Eğitimden entegrasyona, geleceği birlikte şekillendiriyoruz.",
+    "slogan": "Von der Bildung zur Integration - gemeinsam gestalten wir die Zukunft.",
     "sloganTranslation": "Von der Bildung zur Integration - gemeinsam gestalten wir die Zukunft.",
     "intro": "Mainbildung Förderverein e.V. ist ein gemeinnütziger Verein mit Sitz in Würzburg, der sich der Bildung, Integration und sozialen Inklusion widmet. Mit langjähriger Erfahrung in der Bildungsarbeit und als zuverlässiger EU-Projektpartner unterstützen wir Migranten, Flüchtlinge und benachteiligte Gruppen.",
     "buttons": {
       "projects": "Unsere Projekte",
       "partner": "Partner werden",
       "support": "Unterstützen Sie uns"
+    },
+    "features": {
+      "title": "Warum Mainbildung?",
+      "subtitle": "Wir bringen langjährige Erfahrung, EU-Partnerschaftskompetenz und ein starkes Engagement für soziale Inklusion mit.",
+      "items": {
+        "community": {
+          "title": "Gemeinschaft im Fokus",
+          "description": "Tiefes Verständnis für Migranten- und Flüchtlingsgemeinschaften sowie kultursensitive Ansätze zur Integration."
+        },
+        "eu": {
+          "title": "EU-Partnerschaft",
+          "description": "Erfolgreiche Zusammenarbeit als zuverlässiger EU-Projektpartner mit internationaler Erfahrung."
+        },
+        "impact": {
+          "title": "Soziale Wirkung",
+          "description": "Engagement für nachhaltige positive Veränderungen durch Bildung, Integration und soziale Inklusion."
+        }
+      }
+    },
+    "featured": {
+      "title": "Ausgewählte Projekte",
+      "subtitle": "Entdecken Sie unsere aktuellen und geplanten Initiativen, die in unserer Gemeinschaft etwas bewegen.",
+      "viewAll": "Alle Projekte ansehen",
+      "projects": [
+        {
+          "title": "Digitales Integrationsprogramm",
+          "description": "Unterstützung von Migranten und Flüchtlingen durch Schulungen zu digitalen Kompetenzen und Integrationsbegleitung.",
+          "tags": [
+            "Integration",
+            "Digitale Kompetenzen",
+            "EU-gefördert"
+          ]
+        },
+        {
+          "title": "Community Bridge Initiative",
+          "description": "Brücken zwischen verschiedenen Gemeinschaften bauen – durch Bildung und kulturellen Austausch.",
+          "tags": [
+            "Gemeinschaft",
+            "Bildung",
+            "Kultureller Austausch"
+          ]
+        },
+        {
+          "title": "Jugendförderungsprojekt",
+          "description": "Benachteiligte Jugendliche durch Mentoring und Kompetenzentwicklung stärken.",
+          "tags": [
+            "Jugend",
+            "Mentoring",
+            "Kompetenzen"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bereit, etwas zu bewegen?",
+      "subtitle": "Helfen Sie mit, Brücken zu bauen, Chancen zu schaffen und eine inklusivere Zukunft für alle zu gestalten.",
+      "partner": "Partner werden",
+      "support": "Unsere Mission unterstützen"
     }
   },
   "about": {
@@ -169,70 +227,27 @@
       "aiEducation": {
         "title": "KI in der Bildung",
         "description": "Integration künstlicher Intelligenz in Bildungsprogramme für personalisiertes Lernen.",
-        "timeline": "2025-2027"
+        "cta": {
+          "title": "Werden Sie unser Projektpartner",
+          "description": "Gemeinsam können wir noch größere Wirkung erzielen. Kontaktieren Sie uns für Kooperationsmöglichkeiten.",
+          "partnerButton": "Partnerschaft anfragen",
+          "learnMoreButton": "Mehr erfahren"
+        },
+        "partners": "Partner"
       },
-      "greenSkills": {
-        "title": "Grüne Kompetenzen",
-        "description": "Ausbildung in nachhaltigen Technologien und umweltfreundlichen Praktiken.",
-        "timeline": "2024-2026"
+      "partnership": {
+        "title": "Partnerschaft & Zusammenarbeit",
+        "whyUs": "Warum wir ein zuverlässiger EU-Partner sind",
+        "callForPartnership": "Aufruf zur Partnerschaft"
       },
-      "crossCultural": {
-        "title": "Interkultureller Dialog",
-        "description": "Förderung des Verständnisses zwischen verschiedenen Kulturen und Religionen.",
-        "timeline": "2025-2028"
-      }
-    },
-    "status": {
-      "active": "Aktiv",
-      "planning": "Planung",
-      "concept": "Konzept",
-      "proposal": "Antrag",
-      "development": "Entwicklung"
-    },
-    "cta": {
-      "title": "Werden Sie unser Projektpartner",
-      "description": "Gemeinsam können wir noch größere Wirkung erzielen. Kontaktieren Sie uns für Kooperationsmöglichkeiten.",
-      "partnerButton": "Partnerschaft anfragen",
-      "learnMoreButton": "Mehr erfahren"
-    },
-    "partners": "Partner"
-  },
-  "partnership": {
-    "title": "Partnerschaft & Zusammenarbeit",
-    "whyUs": "Warum wir ein zuverlässiger EU-Partner sind",
-    "callForPartnership": "Aufruf zur Partnerschaft"
-  },
-  "membership": {
-    "title": "Mitgliedschaft & Unterstützung",
-    "join": "Mitglied werden",
-    "volunteer": "Ehrenamtlich helfen",
-    "donate": "Spenden",
-    "sponsor": "Sponsoring"
-  },
-  "news": {
-    "title": "Neuigkeiten & Ressourcen",
-    "updates": "Aktuelle Meldungen",
-    "articles": "Artikel",
-    "projectInfo": "Projektinformationen"
-  },
-  "contact": {
-    "title": "Kontakt",
-    "form": "Kontaktformular",
-    "address": "Adresse",
-    "email": "E-Mail",
-    "phone": "Telefon",
-    "socialMedia": "Social Media",
-    "euPartnership": "EU-Partnerschaft E-Mail"
-  },
-  "legal": {
-    "impressum": "Impressum",
-    "datenschutz": "Datenschutz",
-    "cookies": "Cookie-Richtlinie"
-  },
-  "footer": {
-    "description": "Mainbildung Förderverein e.V. - Bildung, Integration und soziale Inklusion in Würzburg",
-    "quickLinks": "Schnellzugriff",
-    "contactInfo": "Kontaktinformationen",
-    "followUs": "Folgen Sie uns"
+      "membership": {
+        "title": "Mitgliedschaft & Unterstützung",
+        "join": "Mitglied werden",
+        "volunteer": "Ehrenamtlich helfen",
+        "donate": "Spenden",
+        "sponsor": "Sponsoring"
+      },
+      "projectInfo": "Projektinformationen"
+    }
   }
 }
