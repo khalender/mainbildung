@@ -64,13 +64,15 @@
       "subtitle": "Join us in building bridges, creating opportunities, and shaping a more inclusive future for everyone.",
       "partner": "Become a Partner",
       "support": "Support Our Mission"
-    }
+    },
+    "heroImageAlt": "Community members participating in an educational workshop",
+    "heroImageCaption": "Empowering communities through inclusive education"
   },
   "about": {
     "title": "About Us",
     "history": "Association History",
     "mission": "Our Mission",
-    "team": "Our Team",
+    "teamTitle": "Our Team",
     "subtitle": "Building bridges through education, fostering integration, and creating opportunities for all.",
     "historyText": "Mainbildung Förderverein e.V. was founded with the goal of promoting education and integration. Originally started as an educational institution, we have evolved into an important partner for EU projects.",
     "historyText2": "Founded in Würzburg, our organization began as a local educational initiative serving the Turkish-German community. Over the years, we have expanded our reach and expertise, becoming a trusted partner for European Union projects focused on integration, digital literacy, and social inclusion.",
@@ -82,9 +84,9 @@
       "digital": "Digital skills focus",
       "renewed": "Renewed mission & vision"
     },
+    "headerImageAlt": "Team members collaborating during a project workshop",
+    "missionImageAlt": "Participants engaging in a community training session",
     "visionTitle": "Our Vision",
-    "visionText": "A society where every individual, regardless of their background, has equal access to education, opportunities, and the tools needed to thrive in an interconnected world.",
-    "valuesTitle": "Our Values",
     "values": {
       "inclusivity": "Inclusivity and cultural diversity",
       "excellence": "Educational excellence and innovation",
@@ -95,54 +97,26 @@
     "missionText": "Our mission is to build bridges between different cultures through education, digital skills, and social inclusion, opening new perspectives for disadvantaged groups.",
     "missionExtra1": "We are committed to creating sustainable programs that address the real needs of our communities while fostering cross-cultural understanding and cooperation. Through our EU partnerships, we leverage international expertise and resources to maximize our impact.",
     "missionExtra2": "Our approach combines traditional educational methods with innovative digital solutions, ensuring that our programs are both accessible and effective for diverse learning styles and backgrounds.",
+    "missionExtraHighlight": "By focusing on people-first solutions, we ensure that every project strengthens social cohesion, supports lifelong learning, and builds lasting partnerships across Europe.",
     "teamSubtitle": "Meet the dedicated professionals who drive our mission forward with passion, expertise, and commitment to social change.",
-    "teamMembersNote": "Localized team member roles and bios:",
-    "teamMembers": [],
-    "teamSection": "",
-    "teamData": "",
-    "teamInfo": "",
-    "teamDetails": "",
-    "teamCaption": "",
-    "teamHeading": "",
-    "teamIntro": "",
-    "teamMembersList": "",
-    "teamBio": "",
-    "teamTitle": "",
-    "teamPlaceholder": "",
-    "teamDescription": "",
-    "teamMembersLocalized": "",
-    "teamLocalized": "",
-    "teamMeta": "",
-    "teamLabel": "",
-    "teamNote": "",
-    "teamSubtitleText": "",
-    "teamSectionSubtitle": "",
-    "teamSectionTitle": "",
-    "teamIntroText": "",
-    "teamText": "",
-    "teamContent": "",
-    "teamSub": "",
-    "teamHeader": "",
-    "teamSubheading": "",
-    "teamSubTitle": "",
-    "teamBioText": "",
-    "teamHeadline": "",
-    "team.members": {
-      "mehmet": {
-        "role": "Executive Director",
-        "bio": "Educational leader with 15+ years experience in integration programs and EU project management."
-      },
-      "sarah": {
-        "role": "Project Coordinator",
-        "bio": "Specialist in community outreach and multicultural program development with focus on refugee integration."
-      },
-      "ahmet": {
-        "role": "Community Liaison",
-        "bio": "Bridge-builder between Turkish and German communities, expert in cultural mediation and language support."
-      },
-      "anna": {
-        "role": "Research & Development",
-        "bio": "Academic researcher specializing in integration studies and EU policy development for social inclusion."
+    "team": {
+      "members": {
+        "mehmet": {
+          "role": "Executive Director",
+          "bio": "Educational leader with 15+ years experience in integration programs and EU project management."
+        },
+        "sarah": {
+          "role": "Project Coordinator",
+          "bio": "Specialist in community outreach and multicultural program development with focus on refugee integration."
+        },
+        "ahmet": {
+          "role": "Community Liaison",
+          "bio": "Bridge-builder between Turkish and German communities, expert in cultural mediation and language support."
+        },
+        "anna": {
+          "role": "Research & Development",
+          "bio": "Academic researcher specializing in integration studies and EU policy development for social inclusion."
+        }
       }
     },
     "stats": {
@@ -155,7 +129,9 @@
   "experience": {
     "hero": {
       "title": "Our Experience",
-      "subtitle": "Over the years, we have successfully implemented educational programs, supported communities, and served as a reliable partner in EU projects."
+      "subtitle": "Over the years, we have successfully implemented educational programs, supported communities, and served as a reliable partner in EU projects.",
+      "heroImageAlt": "Participants collaborating during a workshop session",
+      "heroImageCaption": "Sharing knowledge and building digital skills together"
     },
     "stats": {
       "participants": "Participants",
@@ -163,13 +139,13 @@
       "partners": "Partners",
       "years": "Years of Experience"
     },
-    "achievements": {
-      "title": "Our Achievements",
-      "subtitle": "Concrete results of our work in education, integration, and community development.",
-      "digitalSkills": {
-        "title": "Digital Skills Programs",
-        "description": "Comprehensive training in digital skills for migrants and disadvantaged groups, including computer literacy and online safety."
-      },
+  "achievements": {
+    "title": "Our Achievements",
+    "subtitle": "Concrete results of our work in education, integration, and community development.",
+    "digitalSkills": {
+      "title": "Digital Skills Programs",
+      "description": "Comprehensive training in digital skills for migrants and disadvantaged groups, including computer literacy and online safety."
+    },
       "communityIntegration": {
         "title": "Community Integration",
         "description": "Successful integration programs that overcome language barriers and build cultural bridges between different communities."

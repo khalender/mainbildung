@@ -3,6 +3,12 @@ import { useTranslation } from 'react-i18next';
 import { TeamMember } from '@/components/TeamMember';
 import { Card, CardContent } from '@/components/ui/card';
 import { History, Target, Users } from 'lucide-react';
+import headerImage from '@/assets/picures/504086470_24052933317647690_7044428351615090411_n.jpg';
+import missionImage from '@/assets/picures/505368845_24070297402577948_841066946591203818_n.jpg';
+import memberMehmet from '@/assets/picures/505279492_24070297559244599_8124513859225503294_n.jpg';
+import memberSarah from '@/assets/picures/508693556_24142174295390258_8252334276413819860_n.jpg';
+import memberAhmet from '@/assets/picures/508763183_24144110428529978_4734436101554217121_n.jpg';
+import memberAnna from '@/assets/picures/505197950_24063172533290435_2186439613263688435_n.jpg';
 
 interface AboutPageProps {
   onNavigate?: (path: string) => void;
@@ -15,21 +21,25 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
       key: 'mehmet',
       name: "Dr. Mehmet Özkan",
       email: "m.oezkan@mainbildung.de",
+      image: memberMehmet,
     },
     {
       key: 'sarah',
       name: "Sarah Weber",
       email: "s.weber@mainbildung.de",
+      image: memberSarah,
     },
     {
       key: 'ahmet',
       name: "Ahmet Yılmaz",
       email: "a.yilmaz@mainbildung.de",
+      image: memberAhmet,
     },
     {
       key: 'anna',
       name: "Dr. Anna Schmidt",
       email: "a.schmidt@mainbildung.de",
+      image: memberAnna,
     },
   ];
 
@@ -37,13 +47,24 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
     <div className="min-h-screen">
       {/* Header Section */}
       <section className="bg-gradient-to-br from-primary-50 to-white py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-primary-800 mb-6">
-            {t('about.title')}
-          </h1>
-          <p className="text-xl text-neutral-600 leading-relaxed">
-            {t('about.subtitle')}
-          </p>
+        <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+          <div className="text-center lg:text-left">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold text-primary-800 mb-6">
+              {t('about.title')}
+            </h1>
+            <p className="text-xl text-neutral-600 leading-relaxed">
+              {t('about.subtitle')}
+            </p>
+          </div>
+          <div className="relative order-first lg:order-last">
+            <div className="absolute -inset-4 bg-primary-200/50 rounded-[32px] blur-2xl" />
+            <img
+              src={headerImage}
+              alt={t('about.headerImageAlt')}
+              className="relative rounded-[32px] shadow-2xl w-full h-72 object-cover"
+              loading="lazy"
+            />
+          </div>
         </div>
       </section>
 
@@ -104,6 +125,22 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
       <section className="py-20 bg-neutral-50">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-1 lg:order-2">
+              <div className="relative mb-8">
+                <div className="absolute -inset-4 bg-secondary-200/50 rounded-[32px] blur-2xl" />
+                <img
+                  src={missionImage}
+                  alt={t('about.missionImageAlt')}
+                  className="relative rounded-[32px] shadow-xl w-full h-80 object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div className="bg-white rounded-xl shadow-lg p-6">
+                <p className="text-neutral-700 leading-relaxed">
+                  {t('about.missionExtraHighlight')}
+                </p>
+              </div>
+            </div>
             <div className="order-2 lg:order-1">
               <Card className="h-full">
                 <CardContent className="p-8">
@@ -128,27 +165,6 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
                 </CardContent>
               </Card>
             </div>
-            <div className="order-1 lg:order-2">
-              <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mr-4">
-                  <Target className="h-6 w-6 text-primary-600" />
-                </div>
-                <h2 className="text-3xl font-heading font-bold text-neutral-900">
-                  {t('about.mission')}
-                </h2>
-              </div>
-              <div className="space-y-4 text-neutral-700 leading-relaxed">
-                <p>
-                  {t('about.missionText')}
-                </p>
-                <p>
-                  {t('about.missionExtra1')}
-                </p>
-                <p>
-                  {t('about.missionExtra2')}
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -158,8 +174,7 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-neutral-900 mb-4">
-              {t('about.team')}
-            {t('about.teamTitle')}
+              {t('about.teamTitle')}
             </h2>
             <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
               {t('about.teamSubtitle')}
@@ -174,6 +189,7 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
                 role={t(`about.team.members.${member.key}.role`)}
                 bio={t(`about.team.members.${member.key}.bio`)}
                 email={member.email}
+                image={member.image}
               />
             ))}
           </div>

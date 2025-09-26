@@ -14,6 +14,7 @@
     "slogan": "Eğitimden entegrasyona, geleceği birlikte şekillendiriyoruz.",
     "sloganTranslation": "Eğitimden entegrasyona, geleceği birlikte şekillendiriyoruz.",
     "intro": "Mainbildung Förderverein e.V., Würzburg merkezli, eğitim, entegrasyon ve sosyal kapsayıcılığa adanmış kar amacı gütmeyen bir dernektir. Eğitim alanında yıllarca deneyim sahibi ve güvenilir bir AB proje ortağı olarak göçmenler, mülteciler ve dezavantajlı grupları destekliyoruz.",
+    "heroImageCaption": "Birlikte öğreniyor, dijital becerilerimizi geliştiriyor ve entegrasyonu destekliyoruz.",
     "buttons": {
       "projects": "Projelerimiz",
       "partner": "Ortağımız Olun",
@@ -125,7 +126,9 @@
   "experience": {
     "hero": {
       "title": "Deneyimlerimiz",
-      "subtitle": "Yıllar boyunca başarılı eğitim programları uyguladık, toplulukları destekledik ve AB projelerinde güvenilir bir ortak olarak görev aldık."
+      "subtitle": "Yıllar boyunca başarılı eğitim programları uyguladık, toplulukları destekledik ve AB projelerinde güvenilir bir ortak olarak görev aldık.",
+      "heroImageAlt": "Eğitim programına katılan topluluk üyeleri",
+      "heroImageCaption": "Entegre eğitim ve topluluk destek faaliyetlerimizden bir an"
     },
     "stats": {
       "participants": "Katılımcı",

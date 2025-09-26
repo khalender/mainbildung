@@ -62,7 +62,7 @@ export const ProjectsPage: React.FC<ProjectsPageProps> = ({ onNavigate }) => {
     {
       title: t('projects.current.youthIntegration.title'),
       description: t('projects.current.youthIntegration.description'),
-      status: t('projects.status.planning'),
+      status: t('projects.status.Planned'),
       duration: t('projects.current.youthIntegration.duration'),
       funding: 'ESF+',
       partners: 3,

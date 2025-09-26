@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Calendar, Users, Award, BookOpen, Heart, Globe } from 'lucide-react';
+import experienceHeroImage from '@/assets/picures/505528201_24070297425911279_220368229625263186_n.jpg';
 
 interface ExperiencePageProps {
   onNavigate?: (path: string) => void;
@@ -78,16 +79,29 @@ export const ExperiencePage: React.FC<ExperiencePageProps> = () => {
     <div className="min-h-screen bg-gradient-to-br from-neutral-50 to-primary-50">
       {/* Hero Section */}
       <section className="py-20 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-neutral-800 mb-6">
-            {t('experience.hero.title')}
-          </h1>
-          <p className="text-xl text-neutral-600 mb-8 max-w-3xl mx-auto">
-            {t('experience.hero.subtitle')}
-          </p>
-          
+        <div className="max-w-6xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h1 className="text-4xl md:text-6xl font-bold text-neutral-800 mb-6">
+                {t('experience.hero.title')}
+              </h1>
+              <p className="text-xl text-neutral-600 mb-8 max-w-3xl">
+                {t('experience.hero.subtitle')}
+              </p>
+            </div>
+            <div className="relative">
+              <div className="absolute -inset-4 bg-secondary-200/50 rounded-[32px] blur-2xl" />
+              <img
+                src={experienceHeroImage}
+                alt={t('experience.heroImageAlt')}
+                className="relative w-full h-80 md:h-[26rem] object-cover rounded-[32px] shadow-2xl"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
           {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary-600 mb-2">
