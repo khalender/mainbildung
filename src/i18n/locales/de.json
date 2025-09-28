@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Startseite",
-    "about": "Über uns",
+    "about": "Über Uns",
     "experience": "Unsere Erfahrung",
     "projects": "EU-Projekte",
     "partnership": "Partnerschaft",
@@ -13,120 +13,109 @@
   "home": {
     "slogan": "Von der Bildung zur Integration - gemeinsam gestalten wir die Zukunft.",
     "sloganTranslation": "Von der Bildung zur Integration - gemeinsam gestalten wir die Zukunft.",
-    "intro": "Mainbildung Förderverein e.V. ist ein gemeinnütziger Verein mit Sitz in Würzburg, der sich der Bildung, Integration und sozialen Inklusion widmet. Mit langjähriger Erfahrung in der Bildungsarbeit und als zuverlässiger EU-Projektpartner unterstützen wir Migranten, Flüchtlinge und benachteiligte Gruppen.",
-    "heroImageCaption": "Gemeinsam lernen, digitale Fähigkeiten stärken und Integration fördern",
+    "intro": "Mainbildung Förderverein e.V. ist ein gemeinnütziger Verein mit Sitz in Würzburg, der sich der Bildung, Integration und sozialen Inklusion widmet. Mit jahrelanger Erfahrung in der Bildungsarbeit und als zuverlässiger EU-Projektpartner unterstützen wir Migranten, Flüchtlinge und benachteiligte Gruppen.",
     "buttons": {
       "projects": "Unsere Projekte",
-      "partner": "Partner werden",
-      "support": "Unterstützen Sie uns"
+      "partner": "Partner Werden",
+      "support": "Unterstützen Sie Uns"
     },
     "features": {
-      "title": "Warum Mainbildung?",
-      "subtitle": "Wir bringen langjährige Erfahrung, EU-Partnerschaftskompetenz und ein starkes Engagement für soziale Inklusion mit.",
+      "title": "Warum Mainbildung Wählen?",
+      "subtitle": "Wir bringen jahrelange Erfahrung, EU-Partnerschaftsexpertise und ein tiefes Engagement für soziale Inklusion mit.",
       "items": {
         "community": {
-          "title": "Gemeinschaft im Fokus",
-          "description": "Tiefes Verständnis für Migranten- und Flüchtlingsgemeinschaften sowie kultursensitive Ansätze zur Integration."
+          "title": "Gemeinschaftsfokus",
+          "description": "Tiefgreifendes Verständnis für Migranten- und Flüchtlingsgemeinschaften mit kulturell sensiblen Integrationsansätzen."
         },
         "eu": {
           "title": "EU-Partnerschaft",
-          "description": "Erfolgreiche Zusammenarbeit als zuverlässiger EU-Projektpartner mit internationaler Erfahrung."
+          "description": "Bewährte Erfolgsbilanz als zuverlässiger EU-Projektpartner mit umfangreicher Erfahrung in internationaler Zusammenarbeit."
         },
         "impact": {
           "title": "Soziale Wirkung",
-          "description": "Engagement für nachhaltige positive Veränderungen durch Bildung, Integration und soziale Inklusion."
+          "description": "Engagiert für die Schaffung nachhaltiger positiver Veränderungen durch Bildungs-, Integrations- und soziale Inklusionsinitiativen."
         }
       }
     },
     "featured": {
       "title": "Ausgewählte Projekte",
-      "subtitle": "Entdecken Sie unsere aktuellen und geplanten Initiativen, die in unserer Gemeinschaft etwas bewegen.",
-      "viewAll": "Alle Projekte ansehen",
+      "subtitle": "Entdecken Sie unsere aktuellen und kommenden Initiativen, die einen Unterschied in unserer Gemeinschaft machen.",
+      "viewAll": "Alle Projekte Anzeigen",
       "projects": [
         {
           "title": "Digitales Integrationsprogramm",
-          "description": "Unterstützung von Migranten und Flüchtlingen durch Schulungen zu digitalen Kompetenzen und Integrationsbegleitung.",
-          "tags": [
-            "Integration",
-            "Digitale Kompetenzen",
-            "EU-gefördert"
-          ]
+          "description": "Unterstützung von Migranten und Flüchtlingen mit digitaler Kompetenzschulung und Integrationshilfe.",
+          "tags": ["Integration", "Digitale Kompetenzen", "EU-Gefördert"]
         },
         {
-          "title": "Community Bridge Initiative",
-          "description": "Brücken zwischen verschiedenen Gemeinschaften bauen – durch Bildung und kulturellen Austausch.",
-          "tags": [
-            "Gemeinschaft",
-            "Bildung",
-            "Kultureller Austausch"
-          ]
+          "title": "Gemeinschaftsbrücken-Initiative",
+          "description": "Brücken zwischen verschiedenen Gemeinschaften durch Bildung und kulturellen Austausch bauen.",
+          "tags": ["Gemeinschaft", "Bildung", "Kultureller Austausch"]
         },
         {
-          "title": "Jugendförderungsprojekt",
-          "description": "Benachteiligte Jugendliche durch Mentoring und Kompetenzentwicklung stärken.",
-          "tags": [
-            "Jugend",
-            "Mentoring",
-            "Kompetenzen"
-          ]
+          "title": "Jugend-Empowerment-Projekt",
+          "description": "Stärkung benachteiligter Jugendlicher durch Mentoring und Kompetenzentwicklungsprogramme.",
+          "tags": ["Jugend", "Mentoring", "Kompetenzen"]
         }
       ]
     },
     "cta": {
-      "title": "Bereit, etwas zu bewegen?",
-      "subtitle": "Helfen Sie mit, Brücken zu bauen, Chancen zu schaffen und eine inklusivere Zukunft für alle zu gestalten.",
-      "partner": "Partner werden",
-      "support": "Unsere Mission unterstützen"
-    }
+      "title": "Bereit, Einen Unterschied zu Machen?",
+      "subtitle": "Schließen Sie sich uns an beim Brückenbauen, Schaffen von Möglichkeiten und Gestalten einer inklusiveren Zukunft für alle.",
+      "partner": "Partner Werden",
+      "support": "Unsere Mission Unterstützen"
+    },
+    "heroImageAlt": "Gemeinschaftsmitglieder bei einem Bildungsworkshop",
+    "heroImageCaption": "Gemeinschaften durch inklusive Bildung stärken"
   },
   "about": {
-    "title": "Über uns",
-    "history": "Geschichte des Vereins",
+    "title": "Über Uns",
+    "history": "Vereinsgeschichte",
     "mission": "Unsere Mission",
     "teamTitle": "Unser Team",
-    "subtitle": "Brücken bauen durch Bildung, Integration fördern und Chancen für alle schaffen.",
+    "subtitle": "Brücken durch Bildung bauen, Integration fördern und Chancen für alle schaffen.",
     "historyText": "Mainbildung Förderverein e.V. wurde mit dem Ziel gegründet, Bildung und Integration zu fördern. Ursprünglich als Bildungseinrichtung gestartet, haben wir uns zu einem wichtigen Partner für EU-Projekte entwickelt.",
-    "historyText2": "In Würzburg gegründet, begann unsere Organisation als lokale Bildungsinitiative für die türkisch-deutsche Gemeinschaft. Im Laufe der Jahre haben wir unseren Wirkungskreis und unsere Expertise erweitert und sind zu einem vertrauenswürdigen Partner für EU-Projekte in den Bereichen Integration, digitale Kompetenzen und soziale Inklusion geworden.",
-    "historyText3": "Unser Weg von einer gemeinwesenorientierten Bildungseinrichtung zu einem international anerkannten EU-Projektpartner spiegelt unser Engagement für Wachstum, Lernen und Anpassung wider, um unsere Gemeinschaften noch besser zu unterstützen.",
+    "historyText2": "In Würzburg gegründet, begann unsere Organisation als lokale Bildungsinitiative für die türkisch-deutsche Gemeinschaft. Im Laufe der Jahre haben wir unsere Reichweite und Expertise erweitert und sind zu einem vertrauenswürdigen Partner für Projekte der Europäischen Union geworden, die sich auf Integration, digitale Kompetenz und soziale Inklusion konzentrieren.",
+    "historyText3": "Unser Weg von einer gemeinschaftsbasierten Bildungseinrichtung zu einem international anerkannten EU-Projektpartner spiegelt unser Engagement für Wachstum, Lernen und Anpassung wider, um unseren Gemeinschaften besser zu dienen.",
     "timeline": {
-      "founded": "Gründung als Bildungseinrichtung",
+      "founded": "Als Bildungseinrichtung gegründet",
       "firstEU": "Erste EU-Projektpartnerschaft",
-      "expanded": "Ausbau zu Integrationsprogrammen",
+      "expanded": "Erweiterung auf Integrationsprogramme",
       "digital": "Fokus auf digitale Kompetenzen",
       "renewed": "Erneuerte Mission & Vision"
     },
+    "headerImageAlt": "Teammitglieder bei der Zusammenarbeit während eines Projektworkshops",
+    "missionImageAlt": "Teilnehmer bei einer Gemeinschaftsschulung",
     "visionTitle": "Unsere Vision",
-    "visionText": "Eine Gesellschaft, in der jeder Mensch – unabhängig von seiner Herkunft – gleichen Zugang zu Bildung, Chancen und den nötigen Werkzeugen hat, um in einer vernetzten Welt zu gedeihen.",
-    "valuesTitle": "Unsere Werte",
     "values": {
       "inclusivity": "Inklusivität und kulturelle Vielfalt",
       "excellence": "Bildungsexzellenz und Innovation",
-      "empowerment": "Stärkung und Teilhabe der Gemeinschaft",
+      "empowerment": "Gemeinschaftsstärkung und Teilhabe",
       "sustainability": "Nachhaltige soziale Wirkung",
-      "transparency": "Transparenz und Rechenschaft"
+      "transparency": "Transparenz und Rechenschaftspflicht"
     },
-    "missionText": "Unsere Mission ist es, durch Bildung, digitale Kompetenzen und soziale Inklusion eine Brücke zwischen verschiedenen Kulturen zu bauen und benachteiligten Gruppen neue Perspektiven zu eröffnen.",
-    "missionExtra1": "Wir setzen auf nachhaltige Programme, die reale Bedürfnisse unserer Gemeinschaften adressieren und interkulturelles Verständnis sowie Zusammenarbeit fördern. Durch unsere EU-Partnerschaften nutzen wir internationale Expertise und Ressourcen, um unsere Wirkung zu maximieren.",
-    "missionExtra2": "Unser Ansatz verbindet traditionelle Bildungswege mit innovativen digitalen Lösungen und stellt sicher, dass unsere Programme für unterschiedliche Lernstile und Hintergründe zugänglich und wirksam sind.",
-    "missionExtraHighlight": "Mit unserem menschenzentrierten Ansatz stärken wir den gesellschaftlichen Zusammenhalt, fördern lebenslanges Lernen und bauen langfristige Partnerschaften in Europa auf.",
-    "teamSubtitle": "Lernen Sie die engagierten Fachleute kennen, die unsere Mission mit Leidenschaft, Expertise und Einsatz für sozialen Wandel vorantreiben.",
+    "missionText": "Unsere Mission ist es, Brücken zwischen verschiedenen Kulturen durch Bildung, digitale Kompetenzen und soziale Inklusion zu bauen und neue Perspektiven für benachteiligte Gruppen zu eröffnen.",
+    "missionExtra1": "Wir sind der Schaffung nachhaltiger Programme verpflichtet, die die realen Bedürfnisse unserer Gemeinschaften ansprechen und gleichzeitig interkulturelles Verständnis und Zusammenarbeit fördern. Durch unsere EU-Partnerschaften nutzen wir internationale Expertise und Ressourcen, um unsere Wirkung zu maximieren.",
+    "missionExtra2": "Unser Ansatz kombiniert traditionelle Bildungsmethoden mit innovativen digitalen Lösungen und stellt sicher, dass unsere Programme sowohl zugänglich als auch effektiv für verschiedene Lernstile und Hintergründe sind.",
+    "missionExtraHighlight": "Durch den Fokus auf menschenzentrierte Lösungen stellen wir sicher, dass jedes Projekt den sozialen Zusammenhalt stärkt, lebenslanges Lernen unterstützt und dauerhafte Partnerschaften in ganz Europa aufbaut.",
+    "teamSubtitle": "Lernen Sie die engagierten Fachkräfte kennen, die unsere Mission mit Leidenschaft, Expertise und Engagement für sozialen Wandel vorantreiben.",
     "team": {
       "members": {
         "mehmet": {
           "role": "Geschäftsführer",
-          "bio": "Bildungsexperte mit über 15 Jahren Erfahrung in Integrationsprogrammen und EU-Projektmanagement."
+          "bio": "Bildungsleiter mit über 15 Jahren Erfahrung in Integrationsprogrammen und EU-Projektmanagement."
         },
         "sarah": {
           "role": "Projektkoordinatorin",
-          "bio": "Spezialistin für Community Outreach und multikulturelle Programmentwicklung mit Fokus auf Flüchtlingsintegration."
+          "bio": "Spezialistin für Gemeinschaftsarbeit und multikulturelle Programmentwicklung mit Fokus auf Flüchtlingsintegration."
         },
         "ahmet": {
-          "role": "Community-Lotse",
-          "bio": "Brückenbauer zwischen türkischer und deutscher Community, Experte für kulturelle Mediation und Sprachunterstützung."
+          "role": "Gemeinschaftsverbindung",
+          "bio": "Brückenbauer zwischen türkischen und deutschen Gemeinschaften, Experte für kulturelle Vermittlung und Sprachunterstützung."
         },
         "anna": {
           "role": "Forschung & Entwicklung",
-          "bio": "Wissenschaftliche Mitarbeiterin mit Schwerpunkt Integrationsforschung und EU-Politik für soziale Inklusion."
+          "bio": "Wissenschaftliche Forscherin spezialisiert auf Integrationsstudien und EU-Politikentwicklung für soziale Inklusion."
         }
       }
     },
@@ -140,9 +129,9 @@
   "experience": {
     "hero": {
       "title": "Unsere Erfahrung",
-      "subtitle": "Über Jahre hinweg haben wir erfolgreich Bildungsprogramme durchgeführt, Gemeinschaften unterstützt und als zuverlässiger Partner in EU-Projekten gewirkt.",
-      "heroImageAlt": "Teilnehmende bei einem Workshop zur digitalen Kompetenzentwicklung",
-      "heroImageCaption": "Gemeinsam lernen, digitale Fähigkeiten stärken und Integration fördern"
+      "subtitle": "Im Laufe der Jahre haben wir erfolgreich Bildungsprogramme umgesetzt, Gemeinschaften unterstützt und als zuverlässiger Partner in EU-Projekten gedient.",
+      "heroImageAlt": "Teilnehmer bei der Zusammenarbeit während einer Workshop-Sitzung",
+      "heroImageCaption": "Wissen teilen und digitale Kompetenzen gemeinsam aufbauen"
     },
     "stats": {
       "participants": "Teilnehmer",
@@ -152,22 +141,22 @@
     },
     "achievements": {
       "title": "Unsere Erfolge",
-      "subtitle": "Konkrete Ergebnisse unserer Arbeit in den Bereichen Bildung, Integration und Gemeinschaftsförderung.",
+      "subtitle": "Konkrete Ergebnisse unserer Arbeit in Bildung, Integration und Gemeinschaftsentwicklung.",
       "digitalSkills": {
         "title": "Digitale Kompetenzprogramme",
-        "description": "Umfassende Schulungen in digitalen Fähigkeiten für Migranten und benachteiligte Gruppen, einschließlich Computerkenntnisse und Online-Sicherheit."
+        "description": "Umfassende Schulungen in digitalen Kompetenzen für Migranten und benachteiligte Gruppen, einschließlich Computerkenntnisse und Online-Sicherheit."
       },
       "communityIntegration": {
         "title": "Gemeinschaftsintegration",
         "description": "Erfolgreiche Integrationsprogramme, die Sprachbarrieren überwinden und kulturelle Brücken zwischen verschiedenen Gemeinschaften bauen."
       },
       "youthPrograms": {
-        "title": "Jugendförderung",
-        "description": "Spezialisierte Programme für junge Menschen mit Migrationshintergrund, die Bildungschancen und berufliche Perspektiven eröffnen."
+        "title": "Jugendentwicklung",
+        "description": "Spezialisierte Programme für Jugendliche mit Migrationshintergrund, die Bildungschancen und Karriereperspektiven eröffnen."
       },
       "languageSupport": {
-        "title": "Sprachförderung",
-        "description": "Intensive Deutsch- und Englischkurse für verschiedene Altersgruppen und Kompetenzniveaus zur besseren gesellschaftlichen Teilhabe."
+        "title": "Sprachunterstützung",
+        "description": "Intensive Deutsch- und Englischkurse für verschiedene Altersgruppen und Kompetenzniveaus zur Verbesserung der gesellschaftlichen Teilhabe."
       }
     },
     "categories": {
@@ -177,172 +166,132 @@
       "language": "Sprache"
     },
     "events": {
-      "title": "Veranstaltungen & Events",
+      "title": "Veranstaltungen & Aktivitäten",
       "subtitle": "Regelmäßige Veranstaltungen, die unsere Gemeinschaft stärken und kulturellen Austausch fördern.",
       "culturalFestival": {
         "title": "Interkulturelles Festival",
         "date": "September 2023",
-        "description": "Ein großes Fest zur Feier der kulturellen Vielfalt mit Musik, Tanz, traditionellem Essen und Workshops."
+        "description": "Eine große Feier der kulturellen Vielfalt mit Musik, Tanz, traditionellem Essen und Workshops."
       },
       "educationWorkshop": {
         "title": "Bildungsworkshop",
         "date": "Juni 2023",
-        "description": "Intensive Workshops zu digitalen Kompetenzen, Bewerbungstraining und beruflicher Orientierung."
+        "description": "Intensive Workshops zu digitalen Kompetenzen, Bewerbungstraining und Karriereberatung."
       },
       "networkingEvent": {
-        "title": "Netzwerk-Veranstaltung",
+        "title": "Netzwerkveranstaltung",
         "date": "März 2023",
-        "description": "Vernetzungsveranstaltung für lokale Organisationen, Unternehmen und Gemeinschaftsvertreter."
+        "description": "Netzwerkveranstaltung für lokale Organisationen, Unternehmen und Gemeinschaftsvertreter."
       }
     },
     "impact": {
-      "title": "Unser gesellschaftlicher Beitrag",
-      "description": "Durch unsere Arbeit haben wir messbare positive Veränderungen in der Gemeinschaft bewirkt und das Leben vieler Menschen verbessert.",
+      "title": "Unsere Soziale Wirkung",
+      "description": "Durch unsere Arbeit haben wir messbare positive Veränderungen in der Gemeinschaft geschaffen und das Leben vieler Menschen verbessert.",
       "communities": "12+",
-      "communitiesLabel": "Unterstützte Gemeinden",
+      "communitiesLabel": "Unterstützte Gemeinschaften",
       "families": "300+",
       "familiesLabel": "Erreichte Familien",
       "success": "85%",
       "successLabel": "Erfolgsquote"
     },
     "participants": "Teilnehmer",
-    "attendees": "Teilnehmer",
-    "projects": {
-      "hero": {
-        "title": "EU-Projekte & Zukunftspläne",
-        "subtitle": "Als erfahrener EU-Projektpartner entwickeln wir innovative Lösungen für Integration, Bildung und soziale Inklusion. Entdecken Sie unsere aktuellen Projekte und zukünftigen Pläne.",
-        "partnerButton": "Partner werden",
-        "contactButton": "Kontakt aufnehmen"
-      },
-      "focusAreas": {
-        "title": "Unsere Schwerpunktbereiche",
-        "subtitle": "Vier Hauptbereiche, in denen wir durch EU-Projekte nachhaltige Veränderungen bewirken.",
-        "integration": {
-          "title": "Integration & Eingliederung",
-          "description": "Programme zur gesellschaftlichen Integration von Migranten und Flüchtlingen durch Sprachförderung und kulturelle Brücken."
-        },
-        "education": {
-          "title": "Bildung & Ausbildung",
-          "description": "Innovative Bildungsprogramme für alle Altersgruppen mit Fokus auf lebenslanges Lernen und Kompetenzentwicklung."
-        },
-        "digital": {
-          "title": "Digitale Kompetenzen",
-          "description": "Förderung digitaler Fähigkeiten zur Verbesserung der Beschäftigungsfähigkeit und gesellschaftlichen Teilhabe."
-        },
-        "inclusion": {
-          "title": "Soziale Inklusion",
-          "description": "Unterstützung benachteiligter Gruppen durch gezielte Programme zur Förderung der sozialen Teilhabe."
-        }
-      },
-      "current": {
-        "title": "Aktuelle Projekte",
-        "subtitle": "Unsere laufenden EU-Projekte, die bereits positive Veränderungen in der Gemeinschaft bewirken.",
-        "digitalBridge": {
-          "title": "Digital Bridge Initiative",
-          "description": "Ein Erasmus+ Projekt zur Förderung digitaler Kompetenzen bei Migranten und älteren Menschen.",
-          "duration": "2023-2025"
-        },
-        "youthIntegration": {
-          "title": "Youth Integration Network",
-          "description": "ESF+ Projekt zur beruflichen Integration junger Menschen mit Migrationshintergrund.",
-          "duration": "2024-2026"
-        },
-        "communitySupport": {
-          "title": "Community Support Hub",
-          "description": "AMIF-finanziertes Projekt zur Stärkung lokaler Unterstützungsnetzwerke für Flüchtlinge.",
-          "duration": "2023-2024"
-        }
-      },
-      "targetGroups": {
-        "title": "Unsere Zielgruppen",
-        "subtitle": "Wir arbeiten mit verschiedenen Gruppen, um maximale gesellschaftliche Wirkung zu erzielen.",
-        "migrants": {
-          "title": "Migranten & Flüchtlinge",
-          "description": "Unterstützung bei Integration und Eingliederung"
-        },
-        "youth": {
-          "title": "Jugendliche",
-          "description": "Bildungs- und Berufschancen für junge Menschen"
-        },
-        "families": {
-          "title": "Familien",
-          "description": "Ganzheitliche Unterstützung für Familien"
-        },
-        "professionals": {
-          "title": "Fachkräfte",
-          "description": "Weiterbildung und Kompetenzentwicklung"
-        }
-      },
-      "future": {
-        "title": "Zukunftspläne",
-        "subtitle": "Innovative Projektideen, die wir in den kommenden Jahren umsetzen möchten.",
-        "aiEducation": {
-          "title": "KI in der Bildung",
-          "description": "Integration künstlicher Intelligenz in Bildungsprogramme für personalisiertes Lernen.",
-          "timeline": "2025-2027"
-        },
-        "greenSkills": {
-          "title": "Grüne Kompetenzen",
-          "description": "Schulungen in nachhaltigen Technologien und umweltfreundlichen Praktiken.",
-          "timeline": "2024-2026"
-        },
-        "crossCultural": {
-          "title": "Interkultureller Dialog",
-          "description": "Förderung des Verständnisses zwischen verschiedenen Kulturen und Religionen.",
-          "timeline": "2025-2028"
-        }
-      },
-      "status": {
-        "active": "Aktiv",
-        "completed": "Abgeschlossen",
-        "planned": "Geplant"
-      },
-      "contact": {
-        "title": "Kontakt",
-        "form": "Kontaktformular",
-        "address": "Adresse",
-        "email": "E-Mail",
-        "phone": "Telefon",
-        "socialMedia": "Soziale Medien",
-        "euPartnership": "EU-Partnerschaft E-Mail",
-        "name": "Name",
-        "subject": "Betreff",
-        "message": "Nachricht",
-        "euCheckbox": "Dies betrifft EU-Partnerschaftsmöglichkeiten",
-        "send": "Nachricht senden",
-        "sending": "Wird gesendet...",
-        "placeholders": {
-          "name": "Ihr vollständiger Name",
-          "email": "ihre.email@beispiel.de",
-          "subject": "Kurzer Betreff Ihrer Nachricht",
-          "message": "Bitte beschreiben Sie Ihr Anliegen ausführlich..."
-        }
-      },
-      "cta": {
-        "title": "Werden Sie unser Projektpartner",
-        "description": "Gemeinsam können wir noch größere Wirkung erzielen. Kontaktieren Sie uns für Kooperationsmöglichkeiten.",
-        "partnerButton": "Partnerschaft anfragen",
-        "learnMoreButton": "Mehr erfahren"
-      },
-      "partners": "Partner"
+    "attendees": "Teilnehmer"
+  },
+  "projects": {
+    "hero": {
+      "title": "EU-Projekte & Zukunftspläne",
+      "subtitle": "Als erfahrener EU-Projektpartner entwickeln wir innovative Lösungen für Integration, Bildung und soziale Inklusion. Entdecken Sie unsere aktuellen Projekte und Zukunftspläne.",
+      "partnerButton": "Partner Werden",
+      "contactButton": "Kontakt Aufnehmen"
     },
-    "partnership": {
-      "title": "Partnerschaft & Zusammenarbeit",
-      "whyUs": "Warum wir ein zuverlässiger EU-Partner sind",
-      "callForPartnership": "Aufruf zur Partnerschaft"
+    "focusAreas": {
+      "title": "Unsere Schwerpunktbereiche",
+      "subtitle": "Vier Hauptbereiche, in denen wir durch EU-Projekte nachhaltigen Wandel schaffen.",
+      "integration": {
+        "title": "Integration & Inklusion",
+        "description": "Programme für die soziale Integration von Migranten und Flüchtlingen durch Sprachunterstützung und kulturelle Brücken."
+      },
+      "education": {
+        "title": "Bildung & Ausbildung",
+        "description": "Innovative Bildungsprogramme für alle Altersgruppen mit Fokus auf lebenslanges Lernen und Kompetenzentwicklung."
+      },
+      "digital": {
+        "title": "Digitale Kompetenzen",
+        "description": "Förderung digitaler Kompetenzen zur Verbesserung der Beschäftigungsfähigkeit und gesellschaftlichen Teilhabe."
+      },
+      "inclusion": {
+        "title": "Soziale Inklusion",
+        "description": "Unterstützung benachteiligter Gruppen durch gezielte Programme zur Förderung der gesellschaftlichen Teilhabe."
+      }
     },
-    "membership": {
-      "title": "Mitgliedschaft & Unterstützung",
-      "join": "Mitglied werden",
-      "volunteer": "Ehrenamtlich helfen",
-      "donate": "Spenden",
-      "sponsor": "Sponsoring"
+    "current": {
+      "title": "Aktuelle Projekte",
+      "subtitle": "Unsere laufenden EU-Projekte, die bereits positive Veränderungen in der Gemeinschaft schaffen.",
+      "digitalBridge": {
+        "title": "Digitale Brücken-Initiative",
+        "description": "Ein Erasmus+-Projekt zur Förderung digitaler Kompetenzen bei Migranten und älteren Menschen.",
+        "duration": "2023-2025"
+      },
+      "youthIntegration": {
+        "title": "Jugendintegrations-Netzwerk",
+        "description": "ESF+-Projekt für die berufliche Integration von Jugendlichen mit Migrationshintergrund.",
+        "duration": "2024-2026"
+      },
+      "communitySupport": {
+        "title": "Gemeinschaftsunterstützungs-Hub",
+        "description": "AMIF-gefördertes Projekt zur Stärkung lokaler Unterstützungsnetzwerke für Flüchtlinge.",
+        "duration": "2023-2024"
+      }
     },
-    "news": {
-      "title": "Neuigkeiten & Ressourcen",
-      "updates": "Aktuelle Meldungen",
-      "articles": "Artikel",
-      "projectInfo": "Projektinformationen"
+    "targetGroups": {
+      "title": "Unsere Zielgruppen",
+      "subtitle": "Wir arbeiten mit verschiedenen Gruppen, um maximale soziale Wirkung zu erzielen.",
+      "migrants": {
+        "title": "Migranten & Flüchtlinge",
+        "description": "Unterstützung für Integration und Inklusion"
+      },
+      "youth": {
+        "title": "Jugendliche",
+        "description": "Bildungs- und Karrierechancen für Jugendliche"
+      },
+      "families": {
+        "title": "Familien",
+        "description": "Umfassende Unterstützung für Familien"
+      },
+      "professionals": {
+        "title": "Fachkräfte",
+        "description": "Weiterbildung und Kompetenzentwicklung"
+      }
+    },
+    "future": {
+      "title": "Zukunftspläne",
+      "subtitle": "Innovative Projektideen, die wir in den kommenden Jahren umsetzen möchten.",
+      "aiEducation": {
+        "title": "KI in der Bildung",
+        "description": "Integration künstlicher Intelligenz in Bildungsprogramme für personalisiertes Lernen.",
+        "timeline": "2025-2027"
+      },
+      "greenSkills": {
+        "title": "Grüne Kompetenzen",
+        "description": "Schulungen in nachhaltigen Technologien und umweltfreundlichen Praktiken.",
+        "timeline": "2024-2026"
+      },
+      "crossCultural": {
+        "title": "Interkultureller Dialog",
+        "description": "Förderung des Verständnisses zwischen verschiedenen Kulturen und Religionen.",
+        "timeline": "2025-2028"
+      }
+    },
+    "status": {
+      "active": "Aktiv",
+      "completed": "Abgeschlossen",
+      "planned": "Geplant"
+    },
+    "cta": {
+      "title": "Werden Sie Unser Projektpartner",
+      "description": "Gemeinsam können wir noch größere Wirkung erzielen. Kontaktieren Sie uns für Kooperationsmöglichkeiten.",
+      "partnerButton": "Partnerschaft Anfragen",
+      "learnMoreButton": "Mehr Erfahren"
     },
     "contact": {
       "title": "Kontakt",
@@ -351,18 +300,58 @@
       "email": "E-Mail",
       "phone": "Telefon",
       "socialMedia": "Soziale Medien",
-      "euPartnership": "EU-Partnerschaft E-Mail"
+      "euPartnership": "EU-Partnerschaft E-Mail",
+      "name": "Name",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "euCheckbox": "Dies betrifft EU-Partnerschaftsmöglichkeiten",
+      "send": "Nachricht Senden",
+      "sending": "Wird gesendet...",
+      "placeholders": {
+        "name": "Ihr vollständiger Name",
+        "email": "ihre.email@beispiel.com",
+        "subject": "Kurzer Betreff Ihrer Nachricht",
+        "message": "Bitte beschreiben Sie Ihre Anfrage detailliert..."
+      }
     },
-    "legal": {
-      "impressum": "Impressum",
-      "datenschutz": "Datenschutzerklärung",
-      "cookies": "Cookie-Richtlinie"
-    },
-    "footer": {
-      "description": "Mainbildung Förderverein e.V. – Bildung, Integration und soziale Inklusion in Würzburg",
-      "quickLinks": "Schnellzugriff",
-      "contactInfo": "Kontaktinformationen",
-      "followUs": "Folgen Sie uns"
-    }
+    "partners": "Partner"
+  },
+  "partnership": {
+    "title": "Partnerschaft & Zusammenarbeit",
+    "whyUs": "Warum wir ein zuverlässiger EU-Partner sind",
+    "callForPartnership": "Aufruf zur Partnerschaft"
+  },
+  "membership": {
+    "title": "Mitgliedschaft & Unterstützung",
+    "join": "Als Mitglied Beitreten",
+    "volunteer": "Freiwilligenarbeit",
+    "donate": "Spenden",
+    "sponsor": "Sponsor"
+  },
+  "news": {
+    "title": "Neuigkeiten & Ressourcen",
+    "updates": "Updates",
+    "articles": "Artikel",
+    "projectInfo": "Projektinformationen"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "form": "Kontaktformular",
+    "address": "Adresse",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "socialMedia": "Soziale Medien",
+    "euPartnership": "EU-Partnerschaft E-Mail"
+  },
+  "legal": {
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutzerklärung",
+    "cookies": "Cookie-Richtlinie"
+  },
+  "footer": {
+    "description": "Mainbildung Förderverein e.V. - Bildung, Integration und Soziale Inklusion in Würzburg",
+    "quickLinks": "Schnellzugriff",
+    "contactInfo": "Kontaktinformationen",
+    "followUs": "Folgen Sie Uns"
   }
 }
