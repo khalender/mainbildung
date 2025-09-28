@@ -10,6 +10,12 @@
     "contact": "Kontakt",
     "legal": "Rechtliches"
   },
+  "common": {
+    "status": {
+      "active": "Aktiv",
+      "planned": "Geplant"
+    }
+  },
   "home": {
     "slogan": "Von der Bildung zur Integration - gemeinsam gestalten wir die Zukunft.",
     "sloganTranslation": "Von der Bildung zur Integration - gemeinsam gestalten wir die Zukunft.",
@@ -285,7 +291,10 @@
     "status": {
       "active": "Aktiv",
       "completed": "Abgeschlossen",
-      "planned": "Geplant"
+      "planned": "Geplant",
+      "proposal": "Antrag",
+      "concept": "Konzept",
+      "development": "Entwicklung"
     },
     "cta": {
       "title": "Werden Sie Unser Projektpartner",

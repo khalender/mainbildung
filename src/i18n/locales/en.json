@@ -10,6 +10,12 @@
     "contact": "Contact",
     "legal": "Legal"
   },
+  "common": {
+    "status": {
+      "active": "Active",
+      "planned": "Planned"
+    }
+  },
   "home": {
     "slogan": "From education to integration - together we shape the future.",
     "sloganTranslation": "From education to integration - together we shape the future.",
@@ -285,7 +291,10 @@
     "status": {
       "active": "Active",
       "completed": "Completed",
-      "planned": "Planned"
+      "planned": "Planned",
+      "proposal": "Proposal",
+      "concept": "Concept",
+      "development": "Development"
     },
     "cta": {
       "title": "Become Our Project Partner",

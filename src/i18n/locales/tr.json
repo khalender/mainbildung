@@ -10,6 +10,12 @@
     "contact": "İletişim",
     "legal": "Yasal"
   },
+  "common": {
+    "status": {
+      "active": "Aktif",
+      "planned": "Planlanan"
+    }
+  },
   "home": {
     "slogan": "Eğitimden entegrasyona, geleceği birlikte şekillendiriyoruz.",
     "sloganTranslation": "Eğitimden entegrasyona, geleceği birlikte şekillendiriyoruz.",
@@ -282,7 +288,10 @@
     "status": {
       "active": "Aktif",
       "completed": "Tamamlandı",
-      "planned": "Planlandı"
+      "planned": "Planlandı",
+      "proposal": "Teklif",
+      "concept": "Konsept",
+      "development": "Geliştirme"
     },
     "contact": {
       "title": "İletişim",
