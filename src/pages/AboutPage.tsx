@@ -5,10 +5,6 @@ import { Card, CardContent } from '@/components/ui/card';
 import { History, Target, Users } from 'lucide-react';
 import headerImage from '@/assets/pictures/504086470_24052933317647690_7044428351615090411_n.jpg';
 import missionImage from '@/assets/pictures/505368845_24070297402577948_841066946591203818_n.jpg';
-import memberMehmet from '@/assets/pictures/505279492_24070297559244599_8124513859225503294_n.jpg';
-import memberSarah from '@/assets/pictures/508693556_24142174295390258_8252334276413819860_n.jpg';
-import memberAhmet from '@/assets/pictures/508763183_24144110428529978_4734436101554217121_n.jpg';
-import memberAnna from '@/assets/pictures/505197950_24063172533290435_2186439613263688435_n.jpg';
 
 interface AboutPageProps {
   onNavigate?: (path: string) => void;
@@ -17,30 +13,10 @@ interface AboutPageProps {
 export const AboutPage: React.FC<AboutPageProps> = () => {
   const { t } = useTranslation();
   const teamMembers = [
-    {
-      key: 'mehmet',
-      name: "Dr. Mehmet Özkan",
-      email: "m.oezkan@mainbildung.de",
-      image: memberMehmet,
-    },
-    {
-      key: 'sarah',
-      name: "Sarah Weber",
-      email: "s.weber@mainbildung.de",
-      image: memberSarah,
-    },
-    {
-      key: 'ahmet',
-      name: "Ahmet Yılmaz",
-      email: "a.yilmaz@mainbildung.de",
-      image: memberAhmet,
-    },
-    {
-      key: 'anna',
-      name: "Dr. Anna Schmidt",
-      email: "a.schmidt@mainbildung.de",
-      image: memberAnna,
-    },
+    { key: '1' },
+    { key: '2' },
+    { key: '3' },
+    { key: '4' },
   ];
 
   return (
@@ -185,11 +161,9 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
             {teamMembers.map((member, index) => (
               <TeamMember
                 key={index}
-                name={member.name}
-                role={t(`about.team.members.${member.key}.role`)}
-                bio={t(`about.team.members.${member.key}.bio`)}
-                email={member.email}
-                image={member.image}
+                name={t('about.team.placeholder')}
+                role={''}
+                bio={''}
               />
             ))}
           </div>

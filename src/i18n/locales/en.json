@@ -106,6 +106,8 @@
     "missionExtraHighlight": "By focusing on people-first solutions, we ensure that every project strengthens social cohesion, supports lifelong learning, and builds lasting partnerships across Europe.",
     "teamSubtitle": "Meet the dedicated professionals who drive our mission forward with passion, expertise, and commitment to social change.",
     "team": {
+      "anonymousName": "Team Member",
+      "placeholder": "Team details will be updated soon.",
       "members": {
         "mehmet": {
           "role": "Executive Director",

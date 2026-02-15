@@ -106,6 +106,8 @@
     "missionExtraHighlight": "Durch den Fokus auf menschenzentrierte Lösungen stellen wir sicher, dass jedes Projekt den sozialen Zusammenhalt stärkt, lebenslanges Lernen unterstützt und dauerhafte Partnerschaften in ganz Europa aufbaut.",
     "teamSubtitle": "Lernen Sie die engagierten Fachkräfte kennen, die unsere Mission mit Leidenschaft, Expertise und Engagement für sozialen Wandel vorantreiben.",
     "team": {
+      "anonymousName": "Teammitglied",
+      "placeholder": "Team-Details werden bald aktualisiert.",
       "members": {
         "mehmet": {
           "role": "Geschäftsführer",
