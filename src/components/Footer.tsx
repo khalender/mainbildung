@@ -53,28 +53,10 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-primary-400 flex-shrink-0" />
                 <a
-                  href="mailto:info@mainbildung.de"
+                  href="mailto:info@main-bildung.de"
                   className="text-neutral-300 hover:text-primary-400 transition-colors"
                 >
-                  info@mainbildung.de
-                </a>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Mail className="h-5 w-5 text-secondary-400 flex-shrink-0" />
-                <a
-                  href="mailto:eu-partnership@mainbildung.de"
-                  className="text-neutral-300 hover:text-secondary-400 transition-colors"
-                >
-                  eu-partnership@mainbildung.de
-                </a>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-primary-400 flex-shrink-0" />
-                <a
-                  href="tel:+49931123456"
-                  className="text-neutral-300 hover:text-primary-400 transition-colors"
-                >
-                  +49 931 123 456
+                  info@main-bildung.de
                 </a>
               </div>
             </div>
