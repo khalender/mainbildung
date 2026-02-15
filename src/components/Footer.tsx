@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Mail, Phone, MapPin, Facebook, Twitter, LinkedinIcon } from 'lucide-react';
+import { Mail, MapPin, Facebook, Twitter, LinkedinIcon } from 'lucide-react';
 
 interface FooterProps {
   onNavigate?: (path: string) => void;
