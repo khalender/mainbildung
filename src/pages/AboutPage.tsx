@@ -158,7 +158,7 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, index) => (
+            {teamMembers.map((_, index) => (
               <TeamMember
                 key={index}
                 name={t('about.team.placeholder')}
