@@ -14,34 +14,26 @@ export const ExperiencePage: React.FC<ExperiencePageProps> = () => {
 
   const achievements = [
     {
-      year: '2023',
       title: t('experience.achievements.digitalSkills.title'),
       description: t('experience.achievements.digitalSkills.description'),
-      participants: 150,
       icon: BookOpen,
       category: t('experience.categories.education')
     },
     {
-      year: '2022',
       title: t('experience.achievements.communityIntegration.title'),
       description: t('experience.achievements.communityIntegration.description'),
-      participants: 200,
       icon: Users,
       category: t('experience.categories.integration')
     },
     {
-      year: '2021',
       title: t('experience.achievements.youthPrograms.title'),
       description: t('experience.achievements.youthPrograms.description'),
-      participants: 80,
       icon: Heart,
       category: t('experience.categories.youth')
     },
     {
-      year: '2020',
       title: t('experience.achievements.languageSupport.title'),
       description: t('experience.achievements.languageSupport.description'),
-      participants: 120,
       icon: Globe,
       category: t('experience.categories.language')
     }
@@ -50,29 +42,16 @@ export const ExperiencePage: React.FC<ExperiencePageProps> = () => {
   const events = [
     {
       title: t('experience.events.culturalFestival.title'),
-      date: t('experience.events.culturalFestival.date'),
-      description: t('experience.events.culturalFestival.description'),
-      attendees: 500
+      description: t('experience.events.culturalFestival.description')
     },
     {
       title: t('experience.events.educationWorkshop.title'),
-      date: t('experience.events.educationWorkshop.date'),
-      description: t('experience.events.educationWorkshop.description'),
-      attendees: 75
+      description: t('experience.events.educationWorkshop.description')
     },
     {
       title: t('experience.events.networkingEvent.title'),
-      date: t('experience.events.networkingEvent.date'),
-      description: t('experience.events.networkingEvent.description'),
-      attendees: 100
+      description: t('experience.events.networkingEvent.description')
     }
-  ];
-
-  const stats = [
-    { number: '500+', label: t('experience.stats.participants') },
-    { number: '25+', label: t('experience.stats.programs') },
-    { number: '15+', label: t('experience.stats.partners') },
-    { number: '5+', label: t('experience.stats.years') }
   ];
 
   return (
@@ -98,20 +77,6 @@ export const ExperiencePage: React.FC<ExperiencePageProps> = () => {
                 loading="lazy"
               />
             </div>
-          </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-primary-600 mb-2">
-                  {stat.number}
-                </div>
-                <div className="text-neutral-600 font-medium">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -140,19 +105,14 @@ export const ExperiencePage: React.FC<ExperiencePageProps> = () => {
                       </div>
                       <div className="flex-1">
                         <div className="flex items-center gap-2 mb-2">
-                          <Badge variant="secondary">{achievement.year}</Badge>
                           <Badge variant="outline">{achievement.category}</Badge>
                         </div>
                         <h3 className="text-xl font-semibold text-neutral-800 mb-2">
                           {achievement.title}
                         </h3>
-                        <p className="text-neutral-600 mb-4">
+                        <p className="text-neutral-600">
                           {achievement.description}
                         </p>
-                        <div className="flex items-center gap-2 text-sm text-primary-600">
-                          <Users className="h-4 w-4" />
-                          <span>{achievement.participants} {t('experience.participants')}</span>
-                        </div>
                       </div>
                     </div>
                   </CardContent>
@@ -179,22 +139,12 @@ export const ExperiencePage: React.FC<ExperiencePageProps> = () => {
             {events.map((event, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="p-6">
-                  <div className="flex items-center gap-2 mb-3">
-                    <Calendar className="h-5 w-5 text-primary-600" />
-                    <span className="text-sm text-primary-600 font-medium">
-                      {event.date}
-                    </span>
-                  </div>
                   <h3 className="text-xl font-semibold text-neutral-800 mb-3">
                     {event.title}
                   </h3>
-                  <p className="text-neutral-600 mb-4">
+                  <p className="text-neutral-600">
                     {event.description}
                   </p>
-                  <div className="flex items-center gap-2 text-sm text-neutral-500">
-                    <Users className="h-4 w-4" />
-                    <span>{event.attendees} {t('experience.attendees')}</span>
-                  </div>
                 </CardContent>
               </Card>
             ))}
