@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Calendar, Users, Award, BookOpen, Heart, Globe } from 'lucide-react';
+import { Users, Award, BookOpen, Heart, Globe } from 'lucide-react';
 import experienceHeroImage from '@/assets/pictures/505528201_24070297425911279_220368229625263186_n.jpg';
 
 interface ExperiencePageProps {

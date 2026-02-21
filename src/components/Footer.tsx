@@ -136,18 +136,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <p className="text-neutral-400 text-sm">
             © {new Date().getFullYear()} Mainbildung Förderverein e.V. All rights reserved.
           </p>
-          <div className="flex items-center space-x-4 mt-4 sm:mt-0">
-            <div className="flex items-center space-x-2">
-              <div className="w-6 h-4 bg-primary-600 rounded-sm flex items-center justify-center">
-                <div className="grid grid-cols-3 gap-0.5">
-                  {[...Array(12)].map((_, i) => (
-                    <div key={i} className="w-0.5 h-0.5 bg-secondary-400 rounded-full"></div>
-                  ))}
-                </div>
-              </div>
-              <span className="text-neutral-400 text-xs">{t('footer.euPartner')}</span>
-            </div>
-          </div>
         </div>
       </div>
     </footer>
