@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { TeamMember } from '@/components/TeamMember';
 import { Card, CardContent } from '@/components/ui/card';
 import { History, Target, Users } from 'lucide-react';
 import headerImage from '@/assets/pictures/504086470_24052933317647690_7044428351615090411_n.jpg';
@@ -12,12 +11,6 @@ interface AboutPageProps {
 
 export const AboutPage: React.FC<AboutPageProps> = () => {
   const { t } = useTranslation();
-  const teamMembers = [
-    { key: '1' },
-    { key: '2' },
-    { key: '3' },
-    { key: '4' },
-  ];
 
   return (
     <div className="min-h-screen">
@@ -47,51 +40,25 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
       {/* History Section */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mr-4">
-                  <History className="h-6 w-6 text-primary-600" />
-                </div>
-                <h2 className="text-3xl font-heading font-bold text-neutral-900">
-                  {t('about.history')}
-                </h2>
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="flex items-center justify-center mb-6">
+              <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mr-4">
+                <History className="h-6 w-6 text-primary-600" />
               </div>
-              <div className="space-y-4 text-neutral-700 leading-relaxed">
-                <p>
-                  {t('about.historyText')}
-                </p>
-                <p>
-                  {t('about.historyText2')}
-                </p>
-                <p>
-                  {t('about.historyText3')}
-                </p>
-              </div>
+              <h2 className="text-3xl font-heading font-bold text-neutral-900">
+                {t('about.history')}
+              </h2>
             </div>
-            <div className="bg-neutral-100 rounded-lg p-8">
-              <div className="space-y-6">
-                <div className="flex items-center">
-                  <div className="w-4 h-4 bg-primary-600 rounded-full mr-4"></div>
-                  <span className="font-semibold">2010 - {t('about.timeline.founded')}</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-4 h-4 bg-primary-600 rounded-full mr-4"></div>
-                  <span className="font-semibold">2015 - {t('about.timeline.firstEU')}</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-4 h-4 bg-primary-600 rounded-full mr-4"></div>
-                  <span className="font-semibold">2018 - {t('about.timeline.expanded')}</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-4 h-4 bg-primary-600 rounded-full mr-4"></div>
-                  <span className="font-semibold">2020 - {t('about.timeline.digital')}</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-4 h-4 bg-secondary-400 rounded-full mr-4"></div>
-                  <span className="font-semibold">2024 - {t('about.timeline.renewed')}</span>
-                </div>
-              </div>
+            <div className="space-y-4 text-neutral-700 leading-relaxed max-w-3xl mx-auto">
+              <p>
+                {t('about.historyText')}
+              </p>
+              <p>
+                {t('about.historyText2')}
+              </p>
+              <p>
+                {t('about.historyText3')}
+              </p>
             </div>
           </div>
         </div>
@@ -140,55 +107,6 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
                   </div>
                 </CardContent>
               </Card>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-neutral-900 mb-4">
-              {t('about.teamTitle')}
-            </h2>
-            <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-              {t('about.teamSubtitle')}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {teamMembers.map((_, index) => (
-              <TeamMember
-                key={index}
-                name={t('about.team.placeholder')}
-                role={''}
-                bio={''}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Statistics Section */}
-      <section className="py-20 bg-primary-600">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">500+</div>
-              <div className="text-primary-100">{t('about.stats.peopleSupported')}</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">15+</div>
-              <div className="text-primary-100">{t('about.stats.euProjects')}</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">8</div>
-              <div className="text-primary-100">{t('about.stats.partnerCountries')}</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">14</div>
-              <div className="text-primary-100">{t('about.stats.yearsExperience')}</div>
             </div>
           </div>
         </div>
