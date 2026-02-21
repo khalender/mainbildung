@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, Globe } from 'lucide-react';
+import logo from '@/assets/pictures/logo.jpg';
 
 interface NavbarProps {
   onNavigate?: (path: string) => void;
@@ -52,10 +53,17 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
           <div className="flex-shrink-0">
             <button
               onClick={() => handleNavigation('/')}
-              className="text-xl text-left font-heading font-bold text-primary-600 hover:text-primary-700 transition-colors"
+              className="flex items-center space-x-2 text-xl font-heading font-bold text-primary-600 hover:text-primary-700 transition-colors"
             >
-              Mainbildung<br/>
-              Förderverein e.V.
+              <img
+                src={logo}
+                alt="Mainbildung Förderverein e.V. Logo"
+                className="h-10 w-auto"
+              />
+              <span className="hidden sm:block">
+                Mainbildung<br/>
+                Förderverein e.V.
+              </span>
             </button>
           </div>
 
