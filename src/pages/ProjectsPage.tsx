@@ -53,7 +53,7 @@ export const ProjectsPage: React.FC<ProjectsPageProps> = ({ onNavigate }) => {
     {
       title: t('projects.current.digitalBridge.title'),
       description: t('projects.current.digitalBridge.description'),
-      status: t('projects.status.active'),
+      status: t('projects.status.planned'),
       duration: t('projects.current.digitalBridge.duration'),
       funding: 'Erasmus+',
       partners: 5,
@@ -62,7 +62,7 @@ export const ProjectsPage: React.FC<ProjectsPageProps> = ({ onNavigate }) => {
     {
       title: t('projects.current.youthIntegration.title'),
       description: t('projects.current.youthIntegration.description'),
-      status: t('projects.status.Planned'),
+      status: t('projects.status.planned'),
       duration: t('projects.current.youthIntegration.duration'),
       funding: 'ESF+',
       partners: 3,

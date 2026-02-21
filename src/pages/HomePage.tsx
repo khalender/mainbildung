@@ -17,7 +17,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
       title: t('home.featured.projects.0.title'),
       description: t('home.featured.projects.0.description'),
       tags: [t('home.featured.projects.0.tags.0'), t('home.featured.projects.0.tags.1'), t('home.featured.projects.0.tags.2')],
-      status: 'active' as const,
+      status: 'planned' as const,
     },
     {
       title: t('home.featured.projects.1.title'),
