@@ -207,8 +207,7 @@
     "hero": {
       "title": "AB Projeleri & Gelecek Planları",
       "subtitle": "Deneyimli bir AB proje ortağı olarak entegrasyon, eğitim ve sosyal kapsayıcılık için yenilikçi çözümler geliştiriyoruz. Mevcut projelerimizi ve geleceğe yönelik planlarımızı keşfedin.",
-      "partnerButton": "Ortak Olun",
-      "contactButton": "İletişime Geçin"
+      "partnerButton": "Ortak Olun"
     },
     "focusAreas": {
       "title": "Odak Alanlarımız",
@@ -235,18 +234,15 @@
       "subtitle": "Toplumda olumlu değişimler yaratan devam eden AB projelerimiz.",
       "digitalBridge": {
         "title": "Dijital Köprü Girişimi",
-        "description": "Göçmenler ve yaşlılar arasında dijital becerileri geliştirmeye yönelik bir Erasmus+ projesi.",
-        "duration": "2023-2025"
+        "description": "Göçmenler ve yaşlılar arasında dijital becerileri geliştirmeye yönelik bir Erasmus+ projesi."
       },
       "youthIntegration": {
         "title": "Genç Entegrasyon Ağı",
-        "description": "Göçmen geçmişine sahip gençlerin mesleki entegrasyonuna yönelik ESF+ projesi.",
-        "duration": "2024-2026"
+        "description": "Göçmen geçmişine sahip gençlerin mesleki entegrasyonuna yönelik ESF+ projesi."
       },
       "communitySupport": {
         "title": "Toplum Destek Merkezi",
-        "description": "Mülteciler için yerel destek ağlarını güçlendirmeyi amaçlayan AMIF destekli proje.",
-        "duration": "2023-2024"
+        "description": "Mülteciler için yerel destek ağlarını güçlendirmeyi amaçlayan AMIF destekli proje."
       }
     },
     "targetGroups": {
@@ -296,34 +292,12 @@
       "concept": "Konsept",
       "development": "Geliştirme"
     },
-    "contact": {
-      "title": "İletişim",
-      "form": "İletişim Formu",
-      "address": "Adres",
-      "email": "E-posta",
-      "phone": "Telefon",
-      "socialMedia": "Sosyal Medya",
-      "euPartnership": "AB Ortaklığı E-postası",
-      "name": "İsim",
-      "subject": "Konu",
-      "message": "Mesaj",
-      "euCheckbox": "Bu mesaj AB ortaklığı fırsatları ile ilgili",
-      "send": "Mesajı Gönder",
-      "sending": "Gönderiliyor...",
-      "placeholders": {
-        "name": "Adınız ve soyadınız",
-        "email": "eposta@ornek.com",
-        "subject": "Mesajınızın kısa konusu",
-        "message": "Lütfen talebinizi ayrıntılı olarak açıklayın..."
-      }
-    },
     "cta": {
       "title": "Proje Ortağımız Olun",
       "description": "Birlikte çok daha büyük etki yaratabiliriz. İşbirliği fırsatları için bizimle iletişime geçin.",
       "partnerButton": "Ortaklık Talep Et",
       "learnMoreButton": "Daha Fazla Bilgi"
-    },
-    "partners": "ortak"
+    }
   },
   "partnership": {
     "title": "Ortaklık & İşbirliği",
@@ -342,15 +316,6 @@
     "updates": "Güncellemeler",
     "articles": "Makaleler",
     "projectInfo": "Proje Bilgileri"
-  },
-  "contact": {
-    "title": "İletişim",
-    "form": "İletişim Formu",
-    "address": "Adres",
-    "email": "E-posta",
-    "phone": "Telefon",
-    "socialMedia": "Sosyal Medya",
-    "euPartnership": "AB Ortaklığı E-postası"
   },
   "legal": {
     "impressum": "Yasal Bildirim",

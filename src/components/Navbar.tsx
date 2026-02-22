@@ -26,7 +26,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
     { key: 'partnership', path: '/partnership' },
     { key: 'membership', path: '/membership' },
     { key: 'news', path: '/news' },
-    { key: 'contact', path: '/contact' },
   ];
 
   const handleLanguageChange = (langCode: string) => {

@@ -211,8 +211,7 @@
     "hero": {
       "title": "EU Projects & Future Plans",
       "subtitle": "As an experienced EU project partner, we develop innovative solutions for integration, education, and social inclusion. Discover our current projects and future plans.",
-      "partnerButton": "Become a Partner",
-      "contactButton": "Get in Touch"
+      "partnerButton": "Become a Partner"
     },
     "focusAreas": {
       "title": "Our Focus Areas",
@@ -239,18 +238,15 @@
       "subtitle": "Our ongoing EU projects that are already creating positive changes in the community.",
       "digitalBridge": {
         "title": "Digital Bridge Initiative",
-        "description": "An Erasmus+ project promoting digital skills among migrants and elderly people.",
-        "duration": "2023-2025"
+        "description": "An Erasmus+ project promoting digital skills among migrants and elderly people."
       },
       "youthIntegration": {
         "title": "Youth Integration Network",
-        "description": "ESF+ project for professional integration of young people with migration backgrounds.",
-        "duration": "2024-2026"
+        "description": "ESF+ project for professional integration of young people with migration backgrounds."
       },
       "communitySupport": {
         "title": "Community Support Hub",
-        "description": "AMIF-funded project to strengthen local support networks for refugees.",
-        "duration": "2023-2024"
+        "description": "AMIF-funded project to strengthen local support networks for refugees."
       }
     },
     "targetGroups": {
@@ -305,35 +301,7 @@
       "description": "Together we can achieve even greater impact. Contact us for collaboration opportunities.",
       "partnerButton": "Request Partnership",
       "learnMoreButton": "Learn More"
-    },
-    "contact": {
-      "title": "Contact",
-      "form": "Contact Form",
-      "address": "Address",
-      "email": "Email",
-      "phone": "Phone",
-      "socialMedia": "Social Media",
-      "euPartnership": "EU Partnership Email",
-      "name": "Name",
-      "subject": "Subject",
-      "message": "Message",
-      "euCheckbox": "This is regarding EU partnership opportunities",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "placeholders": {
-        "name": "Your full name",
-        "email": "your.email@example.com",
-        "subject": "Brief subject of your message",
-        "message": "Please describe your inquiry in detail..."
-      }
-    },
-    "cta": {
-      "title": "Become Our Project Partner",
-      "description": "Together we can achieve even greater impact. Contact us for collaboration opportunities.",
-      "partnerButton": "Request Partnership",
-      "learnMoreButton": "Learn More"
-    },
-    "partners": "partners"
+    }
   },
   "partnership": {
     "title": "Partnership & Collaboration",
@@ -352,15 +320,6 @@
     "updates": "Updates",
     "articles": "Articles",
     "projectInfo": "Project Information"
-  },
-  "contact": {
-    "title": "Contact",
-    "form": "Contact Form",
-    "address": "Address",
-    "email": "Email",
-    "phone": "Phone",
-    "socialMedia": "Social Media",
-    "euPartnership": "EU Partnership Email"
   },
   "legal": {
     "impressum": "Legal Notice",

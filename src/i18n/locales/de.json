@@ -211,8 +211,7 @@
     "hero": {
       "title": "EU-Projekte & Zukunftspläne",
       "subtitle": "Als erfahrener EU-Projektpartner entwickeln wir innovative Lösungen für Integration, Bildung und soziale Inklusion. Entdecken Sie unsere aktuellen Projekte und Zukunftspläne.",
-      "partnerButton": "Partner Werden",
-      "contactButton": "Kontakt Aufnehmen"
+      "partnerButton": "Partner Werden"
     },
     "focusAreas": {
       "title": "Unsere Schwerpunktbereiche",
@@ -239,18 +238,15 @@
       "subtitle": "Unsere laufenden EU-Projekte, die bereits positive Veränderungen in der Gemeinschaft schaffen.",
       "digitalBridge": {
         "title": "Digitale Brücken-Initiative",
-        "description": "Ein Erasmus+-Projekt zur Förderung digitaler Kompetenzen bei Migranten und älteren Menschen.",
-        "duration": "2023-2025"
+        "description": "Ein Erasmus+-Projekt zur Förderung digitaler Fähigkeiten bei Migranten und älteren Menschen."
       },
       "youthIntegration": {
         "title": "Jugendintegrations-Netzwerk",
-        "description": "ESF+-Projekt für die berufliche Integration von Jugendlichen mit Migrationshintergrund.",
-        "duration": "2024-2026"
+        "description": "ESF+-Projekt für die berufliche Integration von Jugendlichen mit Migrationshintergrund."
       },
       "communitySupport": {
         "title": "Gemeinschaftsunterstützungs-Hub",
-        "description": "AMIF-gefördertes Projekt zur Stärkung lokaler Unterstützungsnetzwerke für Flüchtlinge.",
-        "duration": "2023-2024"
+        "description": "AMIF-gefördertes Projekt zur Stärkung lokaler Unterstützungsnetzwerke für Flüchtlinge."
       }
     },
     "targetGroups": {
@@ -283,8 +279,7 @@
       },
       "greenSkills": {
         "title": "Grüne Kompetenzen",
-        "description": "Schulungen in nachhaltigen Technologien und umweltfreundlichen Praktiken.",
-        "timeline": "2024-2026"
+        "description": "Schulung in nachhaltigen Technologien und umweltfreundlichen Praktiken."
       },
       "crossCultural": {
         "title": "Interkultureller Dialog",
@@ -305,29 +300,7 @@
       "description": "Gemeinsam können wir noch größere Wirkung erzielen. Kontaktieren Sie uns für Kooperationsmöglichkeiten.",
       "partnerButton": "Partnerschaft Anfragen",
       "learnMoreButton": "Mehr Erfahren"
-    },
-    "contact": {
-      "title": "Kontakt",
-      "form": "Kontaktformular",
-      "address": "Adresse",
-      "email": "E-Mail",
-      "phone": "Telefon",
-      "socialMedia": "Soziale Medien",
-      "euPartnership": "EU-Partnerschaft E-Mail",
-      "name": "Name",
-      "subject": "Betreff",
-      "message": "Nachricht",
-      "euCheckbox": "Dies betrifft EU-Partnerschaftsmöglichkeiten",
-      "send": "Nachricht Senden",
-      "sending": "Wird gesendet...",
-      "placeholders": {
-        "name": "Ihr vollständiger Name",
-        "email": "ihre.email@beispiel.com",
-        "subject": "Kurzer Betreff Ihrer Nachricht",
-        "message": "Bitte beschreiben Sie Ihre Anfrage detailliert..."
-      }
-    },
-    "partners": "Partner"
+    }
   },
   "partnership": {
     "title": "Partnerschaft & Zusammenarbeit",
@@ -347,15 +320,7 @@
     "articles": "Artikel",
     "projectInfo": "Projektinformationen"
   },
-  "contact": {
-    "title": "Kontakt",
-    "form": "Kontaktformular",
-    "address": "Adresse",
-    "email": "E-Mail",
-    "phone": "Telefon",
-    "socialMedia": "Soziale Medien",
-    "euPartnership": "EU-Partnerschaft E-Mail"
-  },
+
   "legal": {
     "impressum": "Impressum",
     "datenschutz": "Datenschutzerklärung",

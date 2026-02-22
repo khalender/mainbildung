@@ -143,13 +143,6 @@ export const ProjectsPage: React.FC<ProjectsPageProps> = ({ onNavigate }) => {
               {t('projects.hero.partnerButton')}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              onClick={() => onNavigate?.('/contact')}
-            >
-              {t('projects.hero.contactButton')}
-            </Button>
           </div>
         </div>
       </section>
