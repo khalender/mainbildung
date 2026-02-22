@@ -25,7 +25,59 @@ const AppContent: React.FC = () => {
         <Route path="/membership" element={<div className="p-8 text-center">Membership Page - Coming Soon</div>} />
         <Route path="/news" element={<div className="p-8 text-center">News Page - Coming Soon</div>} />
         <Route path="/contact" element={<div className="p-8 text-center">Contact Page - Coming Soon</div>} />
-        <Route path="/legal/impressum" element={<div className="p-8 text-center">Impressum - Coming Soon</div>} />
+        <Route path="/legal/impressum" element={
+  <div className="p-8 max-w-4xl mx-auto">
+    <h1 className="text-3xl font-bold mb-8">Impressum</h1>
+    
+    <div className="space-y-6 text-left">
+      <section>
+        <p className="font-semibold">Main-Bildung Förderverein e.V.</p>
+        <p>Hessenstraße 129</p>
+        <p>97078 Würzburg</p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-semibold mb-2">Vertreten durch:</h2>
+        <p>Recep Bedir (1. Vorsitzender)</p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-semibold mb-2">Kontakt:</h2>
+        <p>
+          Telefon: <a href="tel:+491712707271" className="text-blue-600 hover:underline">+49 171 2707271</a><br />
+          E-Mail: <a href="mailto:info@main-bildung.de" className="text-blue-600 hover:underline">info@main-bildung.de</a><br />
+          Website: <a href="https://www.main-bildung.de" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">www.main-bildung.de</a>
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-semibold mb-2">Registereintrag:</h2>
+        <p>
+          Eintragung im Vereinsregister.<br />
+          Registergericht: Amtsgericht Würzburg<br />
+          Registernummer: VR 2011
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-semibold mb-2">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:</h2>
+        <p>
+          Recep Bedir<br />
+          Hessenstraße 129<br />
+          97078 Würzburg
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-semibold mb-2">EU-Streitschlichtung:</h2>
+        <p>
+          Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr/</a>.<br />
+          Unsere E-Mail-Adresse finden Sie oben im Impressum.
+        </p>
+      </section>
+    </div>
+  </div>
+} />
         <Route path="/legal/datenschutz" element={<div className="p-8 text-center">Datenschutz - Coming Soon</div>} />
         <Route path="/legal/cookies" element={<div className="p-8 text-center">Cookie Policy - Coming Soon</div>} />
       </Routes>
