@@ -60,6 +60,11 @@ const AppContent: React.FC = () => {
       </section>
 
       <section>
+        <h2 className="text-xl font-semibold mb-2">Steuernummer:</h2>
+        <p>St-Nr. 257 109 80775</p>
+      </section>
+
+      <section>
         <h2 className="text-xl font-semibold mb-2">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:</h2>
         <p>
           Recep Bedir<br />
