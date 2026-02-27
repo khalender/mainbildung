@@ -57,7 +57,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
               <img
                 src={logo}
                 alt="Mainbildung Förderverein e.V. Logo"
-                className="h-10 w-auto"
+                className="h-12 w-12 object-contain rounded-md"
               />
               <span className="hidden sm:block">
                 Mainbildung<br/>
