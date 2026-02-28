@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 /* Inter Font */
 @font-face {
   font-family: 'Inter';
@@ -71,9 +73,6 @@
   font-display: swap;
   src: url('/fonts/poppins/poppins-v24-latin-700.woff2') format('woff2');
 }
-
-
-@import "tailwindcss";
 
 @theme {
   /* Semantic color tokens mapped to CSS variables */
