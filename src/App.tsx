@@ -5,6 +5,7 @@ import { HomePage } from '@/pages/HomePage';
 import { AboutPage } from '@/pages/AboutPage';
 import { ExperiencePage } from '@/pages/ExperiencePage';
 import { ProjectsPage } from '@/pages/ProjectsPage';
+import { DatenschutzPage } from '@/pages/DatenschutzPage';
 import '@/i18n';
 
 const AppContent: React.FC = () => {
@@ -83,7 +84,7 @@ const AppContent: React.FC = () => {
     </div>
   </div>
 } />
-        <Route path="/legal/datenschutz" element={<div className="p-8 text-center">Datenschutz - Coming Soon</div>} />
+        <Route path="/legal/datenschutz" element={<DatenschutzPage />} />
         <Route path="/legal/cookies" element={<div className="p-8 text-center">Cookie Policy - Coming Soon</div>} />
       </Routes>
     </Layout>
