@@ -2,8 +2,8 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Card, CardContent } from '@/components/ui/card';
 import { History, Target, Users } from 'lucide-react';
-import headerImage from '@/assets/pictures/504086470_24052933317647690_7044428351615090411_n.jpg';
-import missionImage from '@/assets/pictures/505368845_24070297402577948_841066946591203818_n.jpg';
+import headerImage from '@/assets/pictures/508693556_24142174295390258_8252334276413819860_n.png';
+import missionImage from '@/assets/pictures/504086470_24052933317647690_7044428351615090411_n.jpg';
 
 interface AboutPageProps {
   onNavigate?: (path: string) => void;
